@@ -1,0 +1,27 @@
+{
+  "name": "@url-to-figma/transformer",
+  "version": "0.0.1",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "transform": "tsx src/cli.ts",
+    "typecheck": "tsc --noEmit -p tsconfig.check.json"
+  },
+  "dependencies": {
+    "@url-to-figma/shared": "workspace:*",
+    "@url-to-figma/capture": "workspace:*"
+  },
+  "devDependencies": {
+    "tsx": "^4",
+    "typescript": "^5.4.0"
+  }
+}

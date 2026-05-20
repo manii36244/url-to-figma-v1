@@ -1,0 +1,64 @@
+{
+  "version": "1.0.0",
+  "sourceUrl": "test://4-node-ir",
+  "pageWidth": 800,
+  "pageHeight": 500,
+  "nodes": [
+    {
+      "id": "root",
+      "type": "frame",
+      "x": 0,
+      "y": 0,
+      "width": 800,
+      "height": 500,
+      "fill": "rgb(245, 245, 245)",
+      "children": [
+        {
+          "id": "card",
+          "type": "rect",
+          "x": 100,
+          "y": 80,
+          "width": 600,
+          "height": 340,
+          "fill": "rgb(255, 255, 255)",
+          "stroke": "rgb(224, 224, 224)",
+          "strokeWidth": 1,
+          "borderRadius": 12,
+          "effects": [
+            {
+              "color": "rgba(0, 0, 0, 0.08)",
+              "offsetX": 0,
+              "offsetY": 4,
+              "blur": 16,
+              "spread": 0
+            }
+          ]
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "x": 148,
+          "y": 136,
+          "width": 400,
+          "height": 44,
+          "content": "Hello, Figma!",
+          "fontFamily": "Inter",
+          "fontSize": 32,
+          "fontWeight": 700,
+          "color": "rgb(15, 15, 15)",
+          "textAlign": "left"
+        },
+        {
+          "id": "photo",
+          "type": "image",
+          "x": 148,
+          "y": 212,
+          "width": 504,
+          "height": 168,
+          "src": "",
+          "objectFit": "cover"
+        }
+      ]
+    }
+  ]
+}

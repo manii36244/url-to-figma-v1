@@ -1,0 +1,32 @@
+{
+  "name": "@url-to-figma/capture",
+  "version": "0.0.1",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "bin": {
+    "capture": "./dist/cli.js"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "capture": "tsx src/cli.ts",
+    "postinstall": "playwright install chromium",
+    "typecheck": "tsc --noEmit -p tsconfig.check.json"
+  },
+  "dependencies": {
+    "@url-to-figma/shared": "workspace:*",
+    "playwright": "^1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.2",
+    "tsx": "^4",
+    "typescript": "^5.4.0"
+  }
+}

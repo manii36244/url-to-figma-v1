@@ -1,0 +1,4406 @@
+{
+  "version": "1.0.0",
+  "sourceUrl": "https://rehman-work.webflow.io",
+  "pageWidth": 1440,
+  "pageHeight": 9461.296875,
+  "nodes": [
+    {
+      "id": "root",
+      "type": "frame",
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 9461.296875,
+      "fill": "rgb(0, 0, 0)",
+      "children": [
+        {
+          "id": "screenshot",
+          "type": "image",
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 9461.296875,
+          "src": "http://localhost:3001/assets/screenshot.jpg",
+          "objectFit": "fill"
+        },
+        {
+          "id": "n2",
+          "type": "rect",
+          "x": 80,
+          "y": 1182.390625,
+          "width": 626,
+          "height": 200,
+          "fill": {
+            "type": "linear-gradient",
+            "angle": 0,
+            "stops": [
+              {
+                "color": "rgba(0, 0, 0, 0.9)",
+                "position": 0.17
+              },
+              {
+                "color": "rgba(255, 255, 255, 0)",
+                "position": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "n4",
+          "type": "rect",
+          "x": 734,
+          "y": 1182.390625,
+          "width": 626,
+          "height": 200,
+          "fill": {
+            "type": "linear-gradient",
+            "angle": 0,
+            "stops": [
+              {
+                "color": "rgba(0, 0, 0, 0.9)",
+                "position": 0.17
+              },
+              {
+                "color": "rgba(255, 255, 255, 0)",
+                "position": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "n6",
+          "type": "rect",
+          "x": 80,
+          "y": 1810.390625,
+          "width": 626,
+          "height": 200,
+          "fill": {
+            "type": "linear-gradient",
+            "angle": 0,
+            "stops": [
+              {
+                "color": "rgba(0, 0, 0, 0.9)",
+                "position": 0.17
+              },
+              {
+                "color": "rgba(255, 255, 255, 0)",
+                "position": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "n8",
+          "type": "rect",
+          "x": 734,
+          "y": 1810.390625,
+          "width": 626,
+          "height": 200,
+          "fill": {
+            "type": "linear-gradient",
+            "angle": 0,
+            "stops": [
+              {
+                "color": "rgba(0, 0, 0, 0.9)",
+                "position": 0.17
+              },
+              {
+                "color": "rgba(255, 255, 255, 0)",
+                "position": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "n10",
+          "type": "rect",
+          "x": 80,
+          "y": 2438.390625,
+          "width": 626,
+          "height": 200,
+          "fill": {
+            "type": "linear-gradient",
+            "angle": 0,
+            "stops": [
+              {
+                "color": "rgba(0, 0, 0, 0.9)",
+                "position": 0.17
+              },
+              {
+                "color": "rgba(255, 255, 255, 0)",
+                "position": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "n12",
+          "type": "rect",
+          "x": 734,
+          "y": 2438.390625,
+          "width": 626,
+          "height": 200,
+          "fill": {
+            "type": "linear-gradient",
+            "angle": 0,
+            "stops": [
+              {
+                "color": "rgba(0, 0, 0, 0.9)",
+                "position": 0.17
+              },
+              {
+                "color": "rgba(255, 255, 255, 0)",
+                "position": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "n14",
+          "type": "rect",
+          "x": 80,
+          "y": 3066.390625,
+          "width": 626,
+          "height": 200,
+          "fill": {
+            "type": "linear-gradient",
+            "angle": 0,
+            "stops": [
+              {
+                "color": "rgba(0, 0, 0, 0.9)",
+                "position": 0.17
+              },
+              {
+                "color": "rgba(255, 255, 255, 0)",
+                "position": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "n16",
+          "type": "rect",
+          "x": 734,
+          "y": 3066.390625,
+          "width": 626,
+          "height": 200,
+          "fill": {
+            "type": "linear-gradient",
+            "angle": 0,
+            "stops": [
+              {
+                "color": "rgba(0, 0, 0, 0.9)",
+                "position": 0.17
+              },
+              {
+                "color": "rgba(255, 255, 255, 0)",
+                "position": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "n18",
+          "type": "rect",
+          "x": 80,
+          "y": 3694.390625,
+          "width": 1280,
+          "height": 200,
+          "fill": {
+            "type": "linear-gradient",
+            "angle": 0,
+            "stops": [
+              {
+                "color": "rgba(0, 0, 0, 0.9)",
+                "position": 0.17
+              },
+              {
+                "color": "rgba(255, 255, 255, 0)",
+                "position": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "n20",
+          "type": "rect",
+          "x": 80,
+          "y": 4322.390625,
+          "width": 626,
+          "height": 200,
+          "fill": {
+            "type": "linear-gradient",
+            "angle": 0,
+            "stops": [
+              {
+                "color": "rgba(0, 0, 0, 0.9)",
+                "position": 0.17
+              },
+              {
+                "color": "rgba(255, 255, 255, 0)",
+                "position": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "n22",
+          "type": "rect",
+          "x": 734,
+          "y": 4322.390625,
+          "width": 626,
+          "height": 200,
+          "fill": {
+            "type": "linear-gradient",
+            "angle": 0,
+            "stops": [
+              {
+                "color": "rgba(0, 0, 0, 0.9)",
+                "position": 0.17
+              },
+              {
+                "color": "rgba(255, 255, 255, 0)",
+                "position": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "n24",
+          "type": "rect",
+          "x": 80,
+          "y": 4950.390625,
+          "width": 1280,
+          "height": 200,
+          "fill": {
+            "type": "linear-gradient",
+            "angle": 0,
+            "stops": [
+              {
+                "color": "rgba(0, 0, 0, 0.9)",
+                "position": 0.17
+              },
+              {
+                "color": "rgba(255, 255, 255, 0)",
+                "position": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "n26",
+          "type": "rect",
+          "x": 560,
+          "y": 290,
+          "width": 320,
+          "height": 320,
+          "fill": "rgb(189, 254, 0)"
+        },
+        {
+          "id": "n28",
+          "type": "rect",
+          "x": 560,
+          "y": 290,
+          "width": 320,
+          "height": 320,
+          "fill": "rgb(189, 254, 0)"
+        },
+        {
+          "id": "n30",
+          "type": "rect",
+          "x": 560,
+          "y": 290,
+          "width": 320,
+          "height": 320,
+          "fill": "rgb(189, 254, 0)"
+        },
+        {
+          "id": "n32",
+          "type": "rect",
+          "x": 560,
+          "y": 290,
+          "width": 320,
+          "height": 320,
+          "fill": "rgb(189, 254, 0)"
+        },
+        {
+          "id": "n36",
+          "type": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 9045.03125,
+          "fill": "rgb(9, 4, 19)"
+        },
+        {
+          "id": "n41",
+          "type": "image",
+          "x": 92.54000091552734,
+          "y": 354.9912414550781,
+          "width": 93.00000762939453,
+          "height": 93,
+          "src": "http://localhost:3001/assets/279ebc0b.avif",
+          "objectFit": "cover"
+        },
+        {
+          "id": "n42",
+          "type": "image",
+          "x": 39.040000915527344,
+          "y": 301.2256164550781,
+          "width": 200,
+          "height": 200.53125,
+          "src": "http://localhost:3001/assets/f2c8ca55.avif",
+          "objectFit": "fill"
+        },
+        {
+          "id": "n46",
+          "type": "text",
+          "x": 372.0625,
+          "y": 100,
+          "width": 695.875,
+          "height": 85.796875,
+          "content": "Building The Digital",
+          "fontFamily": "\"Apercu Font Family\", Georgia, sans-serif",
+          "fontSize": 78,
+          "fontWeight": 500,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "center",
+          "lineHeight": 85.8,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n47",
+          "type": "text",
+          "x": 405,
+          "y": 208.35987854003906,
+          "width": 630,
+          "height": 89.99998474121094,
+          "content": "I’m Abdul Rheman, a Webflow maestro crafting vibrant, responsive websites that mesmerize and drive results. Let’s launch your unforgettable online journey now!",
+          "fontFamily": "\"Erode Complete\", Arial, sans-serif",
+          "fontSize": 20,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgba(255, 255, 255, 0.75)",
+          "textAlign": "center",
+          "lineHeight": 30,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n49",
+          "type": "rect",
+          "x": 334.75567626953125,
+          "y": 92.171875,
+          "width": 10.2073974609375,
+          "height": 33
+        },
+        {
+          "id": "n53",
+          "type": "rect",
+          "x": 470.921875,
+          "y": 358.765869140625,
+          "width": 93,
+          "height": 109
+        },
+        {
+          "id": "n58",
+          "type": "rect",
+          "x": 563.921875,
+          "y": 388.265869140625,
+          "width": 312.15625,
+          "height": 56,
+          "fill": "rgb(189, 254, 0)",
+          "borderRadius": 55
+        },
+        {
+          "id": "n60",
+          "type": "text",
+          "x": 563.921875,
+          "y": 388.265869140625,
+          "width": 312.15625,
+          "height": 56,
+          "content": "Schedule a Meeting",
+          "fontFamily": "\"Erode Complete\", Arial, sans-serif",
+          "fontSize": 24,
+          "fontWeight": 500,
+          "fontStyle": "normal",
+          "color": "rgb(0, 0, 0)",
+          "textAlign": "center",
+          "lineHeight": 20,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n62",
+          "type": "rect",
+          "x": 876.078125,
+          "y": 358.765869140625,
+          "width": 93,
+          "height": 109
+        },
+        {
+          "id": "n66",
+          "type": "image",
+          "x": 1200.9599609375,
+          "y": 59.040008544921875,
+          "width": 200,
+          "height": 342,
+          "src": "http://localhost:3001/assets/7984313f.avif",
+          "objectFit": "cover"
+        },
+        {
+          "id": "n67",
+          "type": "image",
+          "x": 1200.9599609375,
+          "y": 59.040008544921875,
+          "width": 200,
+          "height": 342,
+          "src": "http://localhost:3001/assets/ab96593d.avif",
+          "objectFit": "cover"
+        },
+        {
+          "id": "n68",
+          "type": "rect",
+          "x": 1192.9599609375,
+          "y": 334.9462585449219,
+          "width": 86,
+          "height": 86,
+          "borderRadius": 100
+        },
+        {
+          "id": "n70",
+          "type": "rect",
+          "x": 1192.9599609375,
+          "y": 334.9462585449219,
+          "width": 86,
+          "height": 86
+        },
+        {
+          "id": "n96",
+          "type": "image",
+          "x": 80,
+          "y": -8.234375,
+          "width": 1080,
+          "height": 750,
+          "src": "http://localhost:3001/assets/37f26edd.avif",
+          "objectFit": "fill"
+        },
+        {
+          "id": "n98",
+          "type": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900,
+          "fill": "rgb(0, 0, 0)"
+        },
+        {
+          "id": "n105",
+          "type": "rect",
+          "x": 527.5994262695312,
+          "y": 643.796875,
+          "width": 10.2073974609375,
+          "height": 33
+        },
+        {
+          "id": "n107",
+          "type": "text",
+          "x": 533.203125,
+          "y": 660.796875,
+          "width": 373.578125,
+          "height": 61.59375,
+          "content": "Our Latest Projects",
+          "fontFamily": "\"Apercu Font Family\", Georgia, sans-serif",
+          "fontSize": 44,
+          "fontWeight": 500,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 61.6,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n111",
+          "type": "text",
+          "x": 110,
+          "y": 1278,
+          "width": 566,
+          "height": 74.390625,
+          "content": "Baby Bot",
+          "fontFamily": "\"Apercu Font Family\", Georgia, sans-serif",
+          "fontSize": 62,
+          "fontWeight": 500,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 74.4,
+          "letterSpacing": -1.24,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n112",
+          "type": "image",
+          "x": 80,
+          "y": 782.390625,
+          "width": 626,
+          "height": 600,
+          "src": "http://localhost:3001/assets/dea233d6.avif",
+          "objectFit": "cover"
+        },
+        {
+          "id": "n113",
+          "type": "text",
+          "x": 764,
+          "y": 1278,
+          "width": 566,
+          "height": 74.390625,
+          "content": "Vocalization",
+          "fontFamily": "\"Apercu Font Family\", Georgia, sans-serif",
+          "fontSize": 62,
+          "fontWeight": 500,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 74.4,
+          "letterSpacing": -1.24,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n114",
+          "type": "image",
+          "x": 734,
+          "y": 782.390625,
+          "width": 626,
+          "height": 600,
+          "src": "http://localhost:3001/assets/43ab2af8.jpg",
+          "objectFit": "cover"
+        },
+        {
+          "id": "n115",
+          "type": "text",
+          "x": 110,
+          "y": 1906,
+          "width": 566,
+          "height": 74.390625,
+          "content": "Rathath Pavilion",
+          "fontFamily": "\"Apercu Font Family\", Georgia, sans-serif",
+          "fontSize": 62,
+          "fontWeight": 500,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 74.4,
+          "letterSpacing": -1.24,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n116",
+          "type": "image",
+          "x": 80,
+          "y": 1410.390625,
+          "width": 626,
+          "height": 600,
+          "src": "http://localhost:3001/assets/65a1a456.jpg",
+          "objectFit": "cover"
+        },
+        {
+          "id": "n117",
+          "type": "text",
+          "x": 764,
+          "y": 1906,
+          "width": 566,
+          "height": 74.390625,
+          "content": "zalata",
+          "fontFamily": "\"Apercu Font Family\", Georgia, sans-serif",
+          "fontSize": 62,
+          "fontWeight": 500,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 74.4,
+          "letterSpacing": -1.24,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n118",
+          "type": "image",
+          "x": 734,
+          "y": 1410.390625,
+          "width": 626,
+          "height": 600,
+          "src": "http://localhost:3001/assets/523a67d7.jpg",
+          "objectFit": "cover"
+        },
+        {
+          "id": "n119",
+          "type": "text",
+          "x": 110,
+          "y": 2534,
+          "width": 566,
+          "height": 74.390625,
+          "content": "Olumen",
+          "fontFamily": "\"Apercu Font Family\", Georgia, sans-serif",
+          "fontSize": 62,
+          "fontWeight": 500,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 74.4,
+          "letterSpacing": -1.24,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n120",
+          "type": "image",
+          "x": 80,
+          "y": 2038.390625,
+          "width": 626,
+          "height": 600,
+          "src": "http://localhost:3001/assets/19231f13.avif",
+          "objectFit": "cover"
+        },
+        {
+          "id": "n121",
+          "type": "text",
+          "x": 764,
+          "y": 2534,
+          "width": 566,
+          "height": 74.390625,
+          "content": "Kualoa",
+          "fontFamily": "\"Apercu Font Family\", Georgia, sans-serif",
+          "fontSize": 62,
+          "fontWeight": 500,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 74.4,
+          "letterSpacing": -1.24,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n122",
+          "type": "image",
+          "x": 734,
+          "y": 2038.390625,
+          "width": 626,
+          "height": 600,
+          "src": "http://localhost:3001/assets/f32d2441.avif",
+          "objectFit": "cover"
+        },
+        {
+          "id": "n123",
+          "type": "text",
+          "x": 110,
+          "y": 3162,
+          "width": 566,
+          "height": 74.390625,
+          "content": "Waikai",
+          "fontFamily": "\"Apercu Font Family\", Georgia, sans-serif",
+          "fontSize": 62,
+          "fontWeight": 500,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 74.4,
+          "letterSpacing": -1.24,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n124",
+          "type": "image",
+          "x": 80,
+          "y": 2666.390625,
+          "width": 626,
+          "height": 600,
+          "src": "http://localhost:3001/assets/be92e402.avif",
+          "objectFit": "cover"
+        },
+        {
+          "id": "n125",
+          "type": "text",
+          "x": 764,
+          "y": 3162,
+          "width": 566,
+          "height": 74.390625,
+          "content": "Hanalei",
+          "fontFamily": "\"Apercu Font Family\", Georgia, sans-serif",
+          "fontSize": 62,
+          "fontWeight": 500,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 74.4,
+          "letterSpacing": -1.24,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n126",
+          "type": "image",
+          "x": 734,
+          "y": 2666.390625,
+          "width": 626,
+          "height": 600,
+          "src": "http://localhost:3001/assets/e5185b05.avif",
+          "objectFit": "cover"
+        },
+        {
+          "id": "n127",
+          "type": "text",
+          "x": 110,
+          "y": 3790,
+          "width": 1220,
+          "height": 74.390625,
+          "content": "Wordfunnel",
+          "fontFamily": "\"Apercu Font Family\", Georgia, sans-serif",
+          "fontSize": 62,
+          "fontWeight": 500,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 74.4,
+          "letterSpacing": -1.24,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n128",
+          "type": "image",
+          "x": 80,
+          "y": 3294.390625,
+          "width": 1280,
+          "height": 600,
+          "src": "http://localhost:3001/assets/83c78c1d.jpg",
+          "objectFit": "cover"
+        },
+        {
+          "id": "n129",
+          "type": "text",
+          "x": 110,
+          "y": 4418,
+          "width": 566,
+          "height": 74.390625,
+          "content": "kauai Shores",
+          "fontFamily": "\"Apercu Font Family\", Georgia, sans-serif",
+          "fontSize": 62,
+          "fontWeight": 500,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 74.4,
+          "letterSpacing": -1.24,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n130",
+          "type": "image",
+          "x": 80,
+          "y": 3922.390625,
+          "width": 626,
+          "height": 600,
+          "src": "https://cdn.prod.website-files.com/689ec0eebc3e2f27014161f4/6902fd3f2fb3b98a77ff409e_Free%20IPhone%2016%20Pro%20Mockup%20Holding%20By%20Hand%20PSD%20copy.jpg",
+          "objectFit": "cover"
+        },
+        {
+          "id": "n131",
+          "type": "text",
+          "x": 764,
+          "y": 4418,
+          "width": 566,
+          "height": 74.390625,
+          "content": "Everstrong",
+          "fontFamily": "\"Apercu Font Family\", Georgia, sans-serif",
+          "fontSize": 62,
+          "fontWeight": 500,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 74.4,
+          "letterSpacing": -1.24,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n132",
+          "type": "image",
+          "x": 734,
+          "y": 3922.390625,
+          "width": 626,
+          "height": 600,
+          "src": "https://cdn.prod.website-files.com/689ec0eebc3e2f27014161f4/6902f965440d495a497362b4_sdsds-p-1600.avif",
+          "objectFit": "cover"
+        },
+        {
+          "id": "n133",
+          "type": "text",
+          "x": 110,
+          "y": 5046,
+          "width": 1220,
+          "height": 74.390625,
+          "content": "Changing your way",
+          "fontFamily": "\"Apercu Font Family\", Georgia, sans-serif",
+          "fontSize": 62,
+          "fontWeight": 500,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 74.4,
+          "letterSpacing": -1.24,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n134",
+          "type": "image",
+          "x": 80,
+          "y": 4550.390625,
+          "width": 1280,
+          "height": 600,
+          "src": "https://cdn.prod.website-files.com/689ec0eebc3e2f27014161f4/690306759e0ae2337f9f8598_11489358%20copy-p-1600.avif",
+          "objectFit": "cover"
+        },
+        {
+          "id": "n142",
+          "type": "rect",
+          "x": 40,
+          "y": 5250.390625,
+          "width": 1360,
+          "height": 157.8125,
+          "stroke": "rgba(0, 0, 0, 0.1)",
+          "strokeWidth": 1,
+          "opacity": 0.3
+        },
+        {
+          "id": "n143",
+          "type": "text",
+          "x": 104,
+          "y": 5304.796875,
+          "width": 375.28125,
+          "height": 48,
+          "content": "Figma + Webflow",
+          "fontFamily": "\"Apercu Font Family\", Georgia, sans-serif",
+          "fontSize": 48,
+          "fontWeight": 500,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 48,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n144",
+          "type": "text",
+          "x": 843.203125,
+          "y": 5295.1875,
+          "width": 492.796875,
+          "height": 67.21875,
+          "content": "We develop your website using the best practices and standards, so you have a perfectly responsive, lightning fast website.",
+          "fontFamily": "\"Apercu Font Family\", Georgia, sans-serif",
+          "fontSize": 22.4,
+          "fontWeight": 500,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 22.4,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n145",
+          "type": "rect",
+          "x": 40,
+          "y": 5408.203125,
+          "width": 1360,
+          "height": 157.8125,
+          "stroke": "rgba(0, 0, 0, 0.1)",
+          "strokeWidth": 1,
+          "opacity": 0.3
+        },
+        {
+          "id": "n146",
+          "type": "text",
+          "x": 104,
+          "y": 5462.609375,
+          "width": 482.75,
+          "height": 48,
+          "content": "Webflow Development",
+          "fontFamily": "\"Apercu Font Family\", Georgia, sans-serif",
+          "fontSize": 48,
+          "fontWeight": 500,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 48,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n147",
+          "type": "text",
+          "x": 843.203125,
+          "y": 5453,
+          "width": 492.796875,
+          "height": 67.21875,
+          "content": "We develop your website using the best practices and standards, so you have a perfectly responsive, lightning fast website.",
+          "fontFamily": "\"Apercu Font Family\", Georgia, sans-serif",
+          "fontSize": 22.4,
+          "fontWeight": 500,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 22.4,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n148",
+          "type": "rect",
+          "x": 40,
+          "y": 5566.015625,
+          "width": 1360,
+          "height": 157.8125,
+          "stroke": "rgba(0, 0, 0, 0.1)",
+          "strokeWidth": 1,
+          "opacity": 0.3
+        },
+        {
+          "id": "n149",
+          "type": "text",
+          "x": 104,
+          "y": 5620.421875,
+          "width": 292.078125,
+          "height": 48,
+          "content": "Figma Design",
+          "fontFamily": "\"Apercu Font Family\", Georgia, sans-serif",
+          "fontSize": 48,
+          "fontWeight": 500,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 48,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n150",
+          "type": "text",
+          "x": 843.203125,
+          "y": 5610.8125,
+          "width": 492.796875,
+          "height": 67.21875,
+          "content": "We start with simple mood board and wireframes. Once initial mockup is ready we make our way to pixel perfect design.",
+          "fontFamily": "\"Apercu Font Family\", Georgia, sans-serif",
+          "fontSize": 22.4,
+          "fontWeight": 500,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 22.4,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n155",
+          "type": "image",
+          "x": 399,
+          "y": 219,
+          "width": 192,
+          "height": 119.8046875,
+          "src": "http://localhost:3001/assets/96ec10a4.avif",
+          "objectFit": "cover"
+        },
+        {
+          "id": "n157",
+          "type": "image",
+          "x": 399,
+          "y": 411,
+          "width": 192,
+          "height": 120,
+          "src": "http://localhost:3001/assets/42e82b48.avif",
+          "objectFit": "cover"
+        },
+        {
+          "id": "n159",
+          "type": "image",
+          "x": 399,
+          "y": 603,
+          "width": 192,
+          "height": 108.03125,
+          "src": "http://localhost:3001/assets/1d202bca.avif",
+          "objectFit": "cover"
+        },
+        {
+          "id": "n164",
+          "type": "rect",
+          "x": 526.9900512695312,
+          "y": 5806.828125,
+          "width": 10.2073974609375,
+          "height": 33
+        },
+        {
+          "id": "n166",
+          "type": "text",
+          "x": 532.59375,
+          "y": 5823.828125,
+          "width": 446.8125,
+          "height": 61.59375,
+          "content": "What Clients say about",
+          "fontFamily": "\"Apercu Font Family\", Georgia, sans-serif",
+          "fontSize": 44,
+          "fontWeight": 500,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 61.6,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n170",
+          "type": "text",
+          "x": 72,
+          "y": 6118.71875,
+          "width": 350,
+          "height": 86.390625,
+          "content": "4.9",
+          "fontFamily": "Tahoma, Verdana, Segoe, sans-serif",
+          "fontSize": 72,
+          "fontWeight": 500,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 86.4,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n171",
+          "type": "text",
+          "x": 72,
+          "y": 6245.109375,
+          "width": 350,
+          "height": 126,
+          "content": "Clutch average based on 70+ reviews. All chances are you’ll be impressed too.",
+          "fontFamily": "Tahoma, Verdana, Segoe, sans-serif",
+          "fontSize": 28,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 42,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n172",
+          "type": "rect",
+          "x": 194.5,
+          "y": 5945.421875,
+          "width": 280,
+          "height": 420,
+          "borderRadius": 1000
+        },
+        {
+          "id": "n174",
+          "type": "image",
+          "x": 194.5,
+          "y": 5945.421875,
+          "width": 280,
+          "height": 420,
+          "src": "http://localhost:3001/assets/279ebc0b.avif",
+          "objectFit": "cover"
+        },
+        {
+          "id": "n175",
+          "type": "rect",
+          "x": 194.5,
+          "y": 6155.421875,
+          "width": 280,
+          "height": 210,
+          "fill": {
+            "type": "linear-gradient",
+            "angle": 0,
+            "stops": [
+              {
+                "color": "rgb(9, 4, 19)",
+                "position": 0.2
+              },
+              {
+                "color": "rgba(255, 255, 255, 0)",
+                "position": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "n181",
+          "type": "rect",
+          "x": 172.95553588867188,
+          "y": 5945.421875,
+          "width": 368.0000305175781,
+          "height": 599,
+          "fill": "rgb(56, 39, 200)",
+          "borderRadius": 24
+        },
+        {
+          "id": "n184",
+          "type": "text",
+          "x": 211.95553588867188,
+          "y": 5984.421875,
+          "width": 36.265625,
+          "height": 39,
+          "content": "5.0",
+          "fontFamily": "Tahoma, Verdana, Segoe, sans-serif",
+          "fontSize": 26,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 39,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n186",
+          "type": "image",
+          "x": 263.2211608886719,
+          "y": 5997.421875,
+          "width": 111,
+          "height": 17,
+          "src": "http://localhost:3001/assets/073f8ba5.svg",
+          "objectFit": "fill"
+        },
+        {
+          "id": "n187",
+          "type": "rect",
+          "x": 211.95553588867188,
+          "y": 6063.421875,
+          "width": 290,
+          "height": 2,
+          "fill": "rgba(255, 255, 255, 0.1)"
+        },
+        {
+          "id": "n189",
+          "type": "rect",
+          "x": 211.95553588867188,
+          "y": 6457.421875,
+          "width": 48,
+          "height": 48,
+          "fill": "rgb(102, 102, 102)",
+          "borderRadius": 99999
+        },
+        {
+          "id": "n190",
+          "type": "text",
+          "x": 227.28366088867188,
+          "y": 6463.421875,
+          "width": 17.34375,
+          "height": 36,
+          "content": "D",
+          "fontFamily": "\"Erode Complete\", Arial, sans-serif",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgba(255, 255, 255, 0.7)",
+          "textAlign": "left",
+          "lineHeight": 36,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n192",
+          "type": "text",
+          "x": 274.9555358886719,
+          "y": 6457.421875,
+          "width": 124.5625,
+          "height": 24,
+          "content": "Danyal Khan",
+          "fontFamily": "\"Open Sans\", sans-serif",
+          "fontSize": 16,
+          "fontWeight": 600,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 24,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n193",
+          "type": "text",
+          "x": 274.9555358886719,
+          "y": 6481.421875,
+          "width": 124.5625,
+          "height": 21,
+          "content": "Founder At Alexo",
+          "fontFamily": "\"Apercu Font Family\", Georgia, sans-serif",
+          "fontSize": 14,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 21,
+          "letterSpacing": 1,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n195",
+          "type": "text",
+          "x": 211.95553588867188,
+          "y": 6117.421875,
+          "width": 290,
+          "height": 288,
+          "content": "Abdul is very competent and detail oriented. The website he implemented for me was beautifully done, and he went the extra mile to make sure it worked perfectly. I had great communication with him as well. Will definitely work with Umair again.",
+          "fontFamily": "\"Apercu Font Family\", Georgia, sans-serif",
+          "fontSize": 20,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 32,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n196",
+          "type": "rect",
+          "x": 428.53411865234375,
+          "y": 5875.18505859375,
+          "width": 151.24908447265625,
+          "height": 140.4892578125,
+          "fill": "rgb(9, 4, 19)"
+        },
+        {
+          "id": "n199",
+          "type": "rect",
+          "x": 560.95556640625,
+          "y": 5945.421875,
+          "width": 368,
+          "height": 599,
+          "fill": "rgb(56, 39, 200)",
+          "borderRadius": 24
+        },
+        {
+          "id": "n202",
+          "type": "text",
+          "x": 599.95556640625,
+          "y": 5984.421875,
+          "width": 36.265625,
+          "height": 39,
+          "content": "5.0",
+          "fontFamily": "Tahoma, Verdana, Segoe, sans-serif",
+          "fontSize": 26,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 39,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n204",
+          "type": "image",
+          "x": 651.22119140625,
+          "y": 5997.421875,
+          "width": 111,
+          "height": 17,
+          "src": "http://localhost:3001/assets/073f8ba5.svg",
+          "objectFit": "fill"
+        },
+        {
+          "id": "n205",
+          "type": "rect",
+          "x": 599.95556640625,
+          "y": 6063.421875,
+          "width": 290,
+          "height": 2,
+          "fill": "rgba(255, 255, 255, 0.1)"
+        },
+        {
+          "id": "n207",
+          "type": "rect",
+          "x": 599.95556640625,
+          "y": 6457.421875,
+          "width": 48,
+          "height": 48,
+          "fill": "rgb(102, 102, 102)",
+          "borderRadius": 99999
+        },
+        {
+          "id": "n208",
+          "type": "text",
+          "x": 615.93994140625,
+          "y": 6463.421875,
+          "width": 16.015625,
+          "height": 36,
+          "content": "K",
+          "fontFamily": "\"Erode Complete\", Arial, sans-serif",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgba(255, 255, 255, 0.7)",
+          "textAlign": "left",
+          "lineHeight": 36,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n210",
+          "type": "text",
+          "x": 662.95556640625,
+          "y": 6457.421875,
+          "width": 133.9375,
+          "height": 24,
+          "content": "Kamran",
+          "fontFamily": "\"Open Sans\", sans-serif",
+          "fontSize": 16,
+          "fontWeight": 600,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 24,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n211",
+          "type": "text",
+          "x": 662.95556640625,
+          "y": 6481.421875,
+          "width": 133.9375,
+          "height": 21,
+          "content": "Managing Director",
+          "fontFamily": "\"Apercu Font Family\", Georgia, sans-serif",
+          "fontSize": 14,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 21,
+          "letterSpacing": 1,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n213",
+          "type": "text",
+          "x": 599.95556640625,
+          "y": 6133.421875,
+          "width": 290,
+          "height": 256,
+          "content": "Abdul is an excellent developer! He was very prompt and helpful throughout all aspects of the project. He greatly improved the look and feel of our website and made the process so much easier for us. I'd be very happy to work with Umair again!",
+          "fontFamily": "\"Apercu Font Family\", Georgia, sans-serif",
+          "fontSize": 20,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 32,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n214",
+          "type": "rect",
+          "x": 816.5340576171875,
+          "y": 5875.18505859375,
+          "width": 151.2491455078125,
+          "height": 140.4892578125,
+          "fill": "rgb(9, 4, 19)"
+        },
+        {
+          "id": "n217",
+          "type": "rect",
+          "x": 948.95556640625,
+          "y": 5945.421875,
+          "width": 368,
+          "height": 599,
+          "fill": "rgb(56, 39, 200)",
+          "borderRadius": 24
+        },
+        {
+          "id": "n220",
+          "type": "text",
+          "x": 987.95556640625,
+          "y": 5984.421875,
+          "width": 36.265625,
+          "height": 39,
+          "content": "5.0",
+          "fontFamily": "Tahoma, Verdana, Segoe, sans-serif",
+          "fontSize": 26,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 39,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n222",
+          "type": "image",
+          "x": 1039.22119140625,
+          "y": 5997.421875,
+          "width": 111,
+          "height": 17,
+          "src": "http://localhost:3001/assets/073f8ba5.svg",
+          "objectFit": "fill"
+        },
+        {
+          "id": "n223",
+          "type": "rect",
+          "x": 987.95556640625,
+          "y": 6063.421875,
+          "width": 290,
+          "height": 2,
+          "fill": "rgba(255, 255, 255, 0.1)"
+        },
+        {
+          "id": "n225",
+          "type": "rect",
+          "x": 987.95556640625,
+          "y": 6457.421875,
+          "width": 48,
+          "height": 48,
+          "fill": "rgb(102, 102, 102)",
+          "borderRadius": 99999
+        },
+        {
+          "id": "n226",
+          "type": "text",
+          "x": 1003.93994140625,
+          "y": 6463.421875,
+          "width": 16.015625,
+          "height": 36,
+          "content": "K",
+          "fontFamily": "\"Erode Complete\", Arial, sans-serif",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgba(255, 255, 255, 0.7)",
+          "textAlign": "left",
+          "lineHeight": 36,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n228",
+          "type": "text",
+          "x": 1050.95556640625,
+          "y": 6457.421875,
+          "width": 59.8125,
+          "height": 24,
+          "content": "Kristina",
+          "fontFamily": "\"Open Sans\", sans-serif",
+          "fontSize": 16,
+          "fontWeight": 600,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 24,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n229",
+          "type": "text",
+          "x": 1050.95556640625,
+          "y": 6481.421875,
+          "width": 59.8125,
+          "height": 21,
+          "content": "Founder",
+          "fontFamily": "\"Apercu Font Family\", Georgia, sans-serif",
+          "fontSize": 14,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 21,
+          "letterSpacing": 1,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n231",
+          "type": "text",
+          "x": 987.95556640625,
+          "y": 6133.421875,
+          "width": 290,
+          "height": 256,
+          "content": "Abdul was excellent with his communication and his work. He recreated a Figma mockup 1:1 into an A+ Webflow site. I recommend him highly for anyone looking for a professional, beautiful Webflow website.",
+          "fontFamily": "\"Apercu Font Family\", Georgia, sans-serif",
+          "fontSize": 20,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 32,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n232",
+          "type": "rect",
+          "x": 1204.5341796875,
+          "y": 5875.18505859375,
+          "width": 151.2490234375,
+          "height": 140.4892578125,
+          "fill": "rgb(9, 4, 19)"
+        },
+        {
+          "id": "n235",
+          "type": "rect",
+          "x": 1336.95556640625,
+          "y": 5945.421875,
+          "width": 368,
+          "height": 599,
+          "fill": "rgb(56, 39, 200)",
+          "borderRadius": 24
+        },
+        {
+          "id": "n238",
+          "type": "text",
+          "x": 1375.95556640625,
+          "y": 5984.421875,
+          "width": 36.265625,
+          "height": 39,
+          "content": "5.0",
+          "fontFamily": "Tahoma, Verdana, Segoe, sans-serif",
+          "fontSize": 26,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 39,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n240",
+          "type": "image",
+          "x": 1427.22119140625,
+          "y": 5997.421875,
+          "width": 111,
+          "height": 17,
+          "src": "http://localhost:3001/assets/073f8ba5.svg",
+          "objectFit": "fill"
+        },
+        {
+          "id": "n241",
+          "type": "rect",
+          "x": 1375.95556640625,
+          "y": 6063.421875,
+          "width": 290,
+          "height": 2,
+          "fill": "rgba(255, 255, 255, 0.1)"
+        },
+        {
+          "id": "n243",
+          "type": "rect",
+          "x": 1375.95556640625,
+          "y": 6457.421875,
+          "width": 48,
+          "height": 48,
+          "fill": "rgb(8, 3, 49)",
+          "borderRadius": 99999
+        },
+        {
+          "id": "n244",
+          "type": "text",
+          "x": 1391.93994140625,
+          "y": 6463.421875,
+          "width": 16.015625,
+          "height": 36,
+          "content": "S",
+          "fontFamily": "\"Erode Complete\", Arial, sans-serif",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgba(255, 255, 255, 0.7)",
+          "textAlign": "left",
+          "lineHeight": 36,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n246",
+          "type": "text",
+          "x": 1438.95556640625,
+          "y": 6457.421875,
+          "width": 75.859375,
+          "height": 24,
+          "content": "Sheraz",
+          "fontFamily": "\"Open Sans\", sans-serif",
+          "fontSize": 16,
+          "fontWeight": 600,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 24,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n247",
+          "type": "text",
+          "x": 1438.95556640625,
+          "y": 6481.421875,
+          "width": 75.859375,
+          "height": 21,
+          "content": "Freelancer",
+          "fontFamily": "\"Apercu Font Family\", Georgia, sans-serif",
+          "fontSize": 14,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 21,
+          "letterSpacing": 1,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n249",
+          "type": "text",
+          "x": 1375.95556640625,
+          "y": 6101.421875,
+          "width": 290,
+          "height": 320,
+          "content": "Abdul is an outstanding designer, working with me to translate my vision into reality. He's excellent at coming up with multiple concepts based on inputs and then refining from there. Clear communicator, timely with his work, I really look forward to working with him again!",
+          "fontFamily": "\"Apercu Font Family\", Georgia, sans-serif",
+          "fontSize": 20,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 32,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n250",
+          "type": "rect",
+          "x": 1592.5341796875,
+          "y": 5875.18505859375,
+          "width": 151.2490234375,
+          "height": 140.4892578125,
+          "fill": "rgb(9, 4, 19)"
+        },
+        {
+          "id": "n252",
+          "type": "rect",
+          "x": 72,
+          "y": 6492.421875,
+          "width": 52,
+          "height": 52,
+          "stroke": "rgb(165, 165, 165)",
+          "strokeWidth": 1,
+          "borderRadius": 1440
+        },
+        {
+          "id": "n254",
+          "type": "rect",
+          "x": 93.5,
+          "y": 6510.421875,
+          "width": 9,
+          "height": 16
+        },
+        {
+          "id": "n256",
+          "type": "rect",
+          "x": 134,
+          "y": 6492.421875,
+          "width": 52,
+          "height": 52,
+          "stroke": "rgb(165, 165, 165)",
+          "strokeWidth": 1,
+          "borderRadius": 1440
+        },
+        {
+          "id": "n258",
+          "type": "rect",
+          "x": 155.5,
+          "y": 6510.421875,
+          "width": 9,
+          "height": 16
+        },
+        {
+          "id": "n264",
+          "type": "text",
+          "x": 512,
+          "y": 6644.421875,
+          "width": 416,
+          "height": 123.1875,
+          "content": "Figma To Webflow In 4 Simple Steps",
+          "fontFamily": "\"Apercu Font Family\", Georgia, sans-serif",
+          "fontSize": 44,
+          "fontWeight": 500,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "center",
+          "lineHeight": 61.6,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n266",
+          "type": "rect",
+          "x": 200,
+          "y": 6827.609375,
+          "width": 648,
+          "height": 266,
+          "fill": {
+            "type": "linear-gradient",
+            "angle": 180,
+            "stops": [
+              {
+                "color": "rgb(18, 18, 18)",
+                "position": 0
+              },
+              {
+                "color": "rgb(18, 18, 18)",
+                "position": 1
+              }
+            ]
+          },
+          "stroke": "rgba(0, 0, 0, 0)",
+          "strokeWidth": 1
+        },
+        {
+          "id": "n267",
+          "type": "rect",
+          "x": 205,
+          "y": 6832.609375,
+          "width": 378,
+          "height": 256,
+          "fill": "rgba(0, 0, 0, 0.7)"
+        },
+        {
+          "id": "n269",
+          "type": "rect",
+          "x": 237,
+          "y": 6864.609375,
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "n273",
+          "type": "text",
+          "x": 237,
+          "y": 6888.609375,
+          "width": 314,
+          "height": 36,
+          "content": "Share your Figma file",
+          "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": 24,
+          "fontWeight": 500,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 36,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n274",
+          "type": "text",
+          "x": 237,
+          "y": 6932.609375,
+          "width": 314,
+          "height": 48,
+          "content": "Send over your finalized Figma design so I can review the layout and structure.",
+          "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": 16,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 24,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n275",
+          "type": "rect",
+          "x": 587,
+          "y": 6832.609375,
+          "width": 256,
+          "height": 256,
+          "fill": "rgba(0, 0, 0, 0.5)"
+        },
+        {
+          "id": "n276",
+          "type": "text",
+          "x": 640.75,
+          "y": 6864.609375,
+          "width": 148.484375,
+          "height": 192,
+          "content": "01",
+          "fontFamily": "Lato, sans-serif",
+          "fontSize": 128,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(0, 0, 0)",
+          "textAlign": "left",
+          "lineHeight": 192,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n277",
+          "type": "rect",
+          "x": 592,
+          "y": 7125.609375,
+          "width": 648,
+          "height": 266,
+          "fill": {
+            "type": "linear-gradient",
+            "angle": 180,
+            "stops": [
+              {
+                "color": "rgb(18, 18, 18)",
+                "position": 0
+              },
+              {
+                "color": "rgb(18, 18, 18)",
+                "position": 1
+              }
+            ]
+          },
+          "stroke": "rgba(0, 0, 0, 0)",
+          "strokeWidth": 1
+        },
+        {
+          "id": "n278",
+          "type": "rect",
+          "x": 597,
+          "y": 7130.609375,
+          "width": 256,
+          "height": 256,
+          "fill": "rgba(0, 0, 0, 0.5)"
+        },
+        {
+          "id": "n279",
+          "type": "text",
+          "x": 650.75,
+          "y": 7162.609375,
+          "width": 148.484375,
+          "height": 192,
+          "content": "02",
+          "fontFamily": "Lato, sans-serif",
+          "fontSize": 128,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(0, 0, 0)",
+          "textAlign": "left",
+          "lineHeight": 192,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n280",
+          "type": "rect",
+          "x": 857,
+          "y": 7130.609375,
+          "width": 378,
+          "height": 256,
+          "fill": "rgba(0, 0, 0, 0.7)"
+        },
+        {
+          "id": "n282",
+          "type": "rect",
+          "x": 889,
+          "y": 7162.609375,
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "n286",
+          "type": "text",
+          "x": 889,
+          "y": 7186.609375,
+          "width": 314,
+          "height": 36,
+          "content": "Get a cost estimate",
+          "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": 24,
+          "fontWeight": 500,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 36,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n287",
+          "type": "text",
+          "x": 889,
+          "y": 7230.609375,
+          "width": 314,
+          "height": 48,
+          "content": "I’ll give you a clear, no-surprise quote based on your design and project needs.",
+          "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": 16,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 24,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n288",
+          "type": "rect",
+          "x": 200,
+          "y": 7423.609375,
+          "width": 648,
+          "height": 266,
+          "fill": {
+            "type": "linear-gradient",
+            "angle": 180,
+            "stops": [
+              {
+                "color": "rgb(18, 18, 18)",
+                "position": 0
+              },
+              {
+                "color": "rgb(18, 18, 18)",
+                "position": 1
+              }
+            ]
+          },
+          "stroke": "rgba(0, 0, 0, 0)",
+          "strokeWidth": 1
+        },
+        {
+          "id": "n289",
+          "type": "rect",
+          "x": 205,
+          "y": 7428.609375,
+          "width": 378,
+          "height": 256,
+          "fill": "rgba(0, 0, 0, 0.7)"
+        },
+        {
+          "id": "n291",
+          "type": "rect",
+          "x": 237,
+          "y": 7460.609375,
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "n295",
+          "type": "text",
+          "x": 237,
+          "y": 7484.609375,
+          "width": 314,
+          "height": 36,
+          "content": "Development begins",
+          "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": 24,
+          "fontWeight": 500,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 36,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n296",
+          "type": "text",
+          "x": 237,
+          "y": 7528.609375,
+          "width": 314,
+          "height": 48,
+          "content": "I’ll build your site in Webflow, making sure it’s responsive and fast.",
+          "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": 16,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 24,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n297",
+          "type": "rect",
+          "x": 587,
+          "y": 7428.609375,
+          "width": 256,
+          "height": 256,
+          "fill": "rgba(0, 0, 0, 0.5)"
+        },
+        {
+          "id": "n298",
+          "type": "text",
+          "x": 640.75,
+          "y": 7460.609375,
+          "width": 148.484375,
+          "height": 192,
+          "content": "03",
+          "fontFamily": "Lato, sans-serif",
+          "fontSize": 128,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(0, 0, 0)",
+          "textAlign": "left",
+          "lineHeight": 192,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n299",
+          "type": "rect",
+          "x": 592,
+          "y": 7721.609375,
+          "width": 648,
+          "height": 266,
+          "fill": {
+            "type": "linear-gradient",
+            "angle": 180,
+            "stops": [
+              {
+                "color": "rgb(18, 18, 18)",
+                "position": 0
+              },
+              {
+                "color": "rgb(18, 18, 18)",
+                "position": 1
+              }
+            ]
+          },
+          "stroke": "rgba(0, 0, 0, 0)",
+          "strokeWidth": 1
+        },
+        {
+          "id": "n300",
+          "type": "rect",
+          "x": 597,
+          "y": 7726.609375,
+          "width": 256,
+          "height": 256,
+          "fill": "rgba(0, 0, 0, 0.5)"
+        },
+        {
+          "id": "n301",
+          "type": "text",
+          "x": 650.75,
+          "y": 7758.609375,
+          "width": 148.484375,
+          "height": 192,
+          "content": "04",
+          "fontFamily": "Lato, sans-serif",
+          "fontSize": 128,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(0, 0, 0)",
+          "textAlign": "left",
+          "lineHeight": 192,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n302",
+          "type": "rect",
+          "x": 857,
+          "y": 7726.609375,
+          "width": 378,
+          "height": 256,
+          "fill": "rgba(0, 0, 0, 0.7)"
+        },
+        {
+          "id": "n304",
+          "type": "rect",
+          "x": 889,
+          "y": 7758.609375,
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "n308",
+          "type": "text",
+          "x": 889,
+          "y": 7782.609375,
+          "width": 314,
+          "height": 36,
+          "content": "Final delivery",
+          "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": 24,
+          "fontWeight": 500,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 36,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n309",
+          "type": "text",
+          "x": 889,
+          "y": 7826.609375,
+          "width": 314,
+          "height": 48,
+          "content": "Get the fully developed website, ready to launch, clean, tested, and on-brand.",
+          "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": 16,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 24,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n312",
+          "type": "rect",
+          "x": 611.25,
+          "y": 8048.609375,
+          "width": 217.484375,
+          "height": 52,
+          "fill": "rgb(189, 254, 0)",
+          "borderRadius": 55
+        },
+        {
+          "id": "n314",
+          "type": "text",
+          "x": 611.25,
+          "y": 8048.609375,
+          "width": 217.484375,
+          "height": 52,
+          "content": "Get in touch",
+          "fontFamily": "\"Apercu Font Family\", Georgia, sans-serif",
+          "fontSize": 18,
+          "fontWeight": 500,
+          "fontStyle": "normal",
+          "color": "rgb(0, 0, 0)",
+          "textAlign": "center",
+          "lineHeight": 20,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n319",
+          "type": "text",
+          "x": -125.83308410644531,
+          "y": 8231.1513671875,
+          "width": 335.203125,
+          "height": 62.5673828125,
+          "content": "LETS WORK TOGATHER .",
+          "fontFamily": "Tahoma, Verdana, Segoe, sans-serif",
+          "fontSize": 30,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(0, 0, 0)",
+          "textAlign": "left",
+          "lineHeight": 45,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n321",
+          "type": "text",
+          "x": 225.37005615234375,
+          "y": 8212.74609375,
+          "width": 335.203125,
+          "height": 62.5673828125,
+          "content": "LETS WORK TOGATHER .",
+          "fontFamily": "Tahoma, Verdana, Segoe, sans-serif",
+          "fontSize": 30,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(0, 0, 0)",
+          "textAlign": "left",
+          "lineHeight": 45,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n323",
+          "type": "text",
+          "x": 576.5731811523438,
+          "y": 8194.33984375,
+          "width": 335.203125,
+          "height": 62.5673828125,
+          "content": "LETS WORK TOGATHER .",
+          "fontFamily": "Tahoma, Verdana, Segoe, sans-serif",
+          "fontSize": 30,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(0, 0, 0)",
+          "textAlign": "left",
+          "lineHeight": 45,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n325",
+          "type": "text",
+          "x": 927.7763061523438,
+          "y": 8175.93408203125,
+          "width": 335.20306396484375,
+          "height": 62.56787109375,
+          "content": "LETS WORK TOGATHER .",
+          "fontFamily": "Tahoma, Verdana, Segoe, sans-serif",
+          "fontSize": 30,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(0, 0, 0)",
+          "textAlign": "left",
+          "lineHeight": 45,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n327",
+          "type": "text",
+          "x": 1278.9793701171875,
+          "y": 8157.5283203125,
+          "width": 335.203125,
+          "height": 62.5673828125,
+          "content": "LETS WORK TOGATHER .",
+          "fontFamily": "Tahoma, Verdana, Segoe, sans-serif",
+          "fontSize": 30,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(0, 0, 0)",
+          "textAlign": "left",
+          "lineHeight": 45,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n329",
+          "type": "text",
+          "x": 1630.1824951171875,
+          "y": 8139.12255859375,
+          "width": 335.203125,
+          "height": 62.56787109375,
+          "content": "LETS WORK TOGATHER .",
+          "fontFamily": "Tahoma, Verdana, Segoe, sans-serif",
+          "fontSize": 30,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(0, 0, 0)",
+          "textAlign": "left",
+          "lineHeight": 45,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n331",
+          "type": "text",
+          "x": 1981.3856201171875,
+          "y": 8120.716796875,
+          "width": 335.2032470703125,
+          "height": 62.5673828125,
+          "content": "LETS WORK TOGATHER .",
+          "fontFamily": "Tahoma, Verdana, Segoe, sans-serif",
+          "fontSize": 30,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(0, 0, 0)",
+          "textAlign": "left",
+          "lineHeight": 45,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n333",
+          "type": "text",
+          "x": 2332.588623046875,
+          "y": 8102.31103515625,
+          "width": 335.203369140625,
+          "height": 62.5673828125,
+          "content": "LETS WORK TOGATHER .",
+          "fontFamily": "Tahoma, Verdana, Segoe, sans-serif",
+          "fontSize": 30,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(0, 0, 0)",
+          "textAlign": "left",
+          "lineHeight": 45,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n335",
+          "type": "text",
+          "x": 2683.791748046875,
+          "y": 8083.9052734375,
+          "width": 335.203369140625,
+          "height": 62.5673828125,
+          "content": "LETS WORK TOGATHER .",
+          "fontFamily": "Tahoma, Verdana, Segoe, sans-serif",
+          "fontSize": 30,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(0, 0, 0)",
+          "textAlign": "left",
+          "lineHeight": 45,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n337",
+          "type": "text",
+          "x": 3037.79052734375,
+          "y": 8065.35302734375,
+          "width": 335.203125,
+          "height": 62.5673828125,
+          "content": "LETS WORK TOGATHER .",
+          "fontFamily": "Tahoma, Verdana, Segoe, sans-serif",
+          "fontSize": 30,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(0, 0, 0)",
+          "textAlign": "left",
+          "lineHeight": 45,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n339",
+          "type": "text",
+          "x": 3388.99365234375,
+          "y": 8046.947265625,
+          "width": 335.203125,
+          "height": 62.5673828125,
+          "content": "LETS WORK TOGATHER .",
+          "fontFamily": "Tahoma, Verdana, Segoe, sans-serif",
+          "fontSize": 30,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(0, 0, 0)",
+          "textAlign": "left",
+          "lineHeight": 45,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n341",
+          "type": "text",
+          "x": 3740.19677734375,
+          "y": 8028.54150390625,
+          "width": 335.203125,
+          "height": 62.5673828125,
+          "content": "LETS WORK TOGATHER .",
+          "fontFamily": "Tahoma, Verdana, Segoe, sans-serif",
+          "fontSize": 30,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(0, 0, 0)",
+          "textAlign": "left",
+          "lineHeight": 45,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n343",
+          "type": "text",
+          "x": 4091.39990234375,
+          "y": 8010.1357421875,
+          "width": 335.203125,
+          "height": 62.5673828125,
+          "content": "LETS WORK TOGATHER .",
+          "fontFamily": "Tahoma, Verdana, Segoe, sans-serif",
+          "fontSize": 30,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(0, 0, 0)",
+          "textAlign": "left",
+          "lineHeight": 45,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n345",
+          "type": "text",
+          "x": 4442.60302734375,
+          "y": 7991.72998046875,
+          "width": 335.203125,
+          "height": 62.5673828125,
+          "content": "LETS WORK TOGATHER .",
+          "fontFamily": "Tahoma, Verdana, Segoe, sans-serif",
+          "fontSize": 30,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(0, 0, 0)",
+          "textAlign": "left",
+          "lineHeight": 45,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n347",
+          "type": "text",
+          "x": 4793.80615234375,
+          "y": 7973.32421875,
+          "width": 335.203125,
+          "height": 62.5673828125,
+          "content": "LETS WORK TOGATHER .",
+          "fontFamily": "Tahoma, Verdana, Segoe, sans-serif",
+          "fontSize": 30,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(0, 0, 0)",
+          "textAlign": "left",
+          "lineHeight": 45,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n349",
+          "type": "text",
+          "x": 5145.00927734375,
+          "y": 7954.91845703125,
+          "width": 335.203125,
+          "height": 62.5673828125,
+          "content": "LETS WORK TOGATHER .",
+          "fontFamily": "Tahoma, Verdana, Segoe, sans-serif",
+          "fontSize": 30,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(0, 0, 0)",
+          "textAlign": "left",
+          "lineHeight": 45,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n351",
+          "type": "text",
+          "x": 5496.21240234375,
+          "y": 7936.5126953125,
+          "width": 335.203125,
+          "height": 62.5673828125,
+          "content": "LETS WORK TOGATHER .",
+          "fontFamily": "Tahoma, Verdana, Segoe, sans-serif",
+          "fontSize": 30,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(0, 0, 0)",
+          "textAlign": "left",
+          "lineHeight": 45,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n353",
+          "type": "text",
+          "x": 5847.41552734375,
+          "y": 7918.10693359375,
+          "width": 335.203125,
+          "height": 62.5673828125,
+          "content": "LETS WORK TOGATHER .",
+          "fontFamily": "Tahoma, Verdana, Segoe, sans-serif",
+          "fontSize": 30,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(0, 0, 0)",
+          "textAlign": "left",
+          "lineHeight": 45,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n355",
+          "type": "text",
+          "x": 6198.61865234375,
+          "y": 7899.701171875,
+          "width": 335.203125,
+          "height": 62.5673828125,
+          "content": "LETS WORK TOGATHER .",
+          "fontFamily": "Tahoma, Verdana, Segoe, sans-serif",
+          "fontSize": 30,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(0, 0, 0)",
+          "textAlign": "left",
+          "lineHeight": 45,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n357",
+          "type": "text",
+          "x": 6549.82177734375,
+          "y": 7881.29541015625,
+          "width": 335.203125,
+          "height": 62.5673828125,
+          "content": "LETS WORK TOGATHER .",
+          "fontFamily": "Tahoma, Verdana, Segoe, sans-serif",
+          "fontSize": 30,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(0, 0, 0)",
+          "textAlign": "left",
+          "lineHeight": 45,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n359",
+          "type": "text",
+          "x": 6901.02490234375,
+          "y": 7862.8896484375,
+          "width": 335.203125,
+          "height": 62.5673828125,
+          "content": "LETS WORK TOGATHER .",
+          "fontFamily": "Tahoma, Verdana, Segoe, sans-serif",
+          "fontSize": 30,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(0, 0, 0)",
+          "textAlign": "left",
+          "lineHeight": 45,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n361",
+          "type": "text",
+          "x": 7252.22802734375,
+          "y": 7844.48388671875,
+          "width": 335.203125,
+          "height": 62.5673828125,
+          "content": "LETS WORK TOGATHER .",
+          "fontFamily": "Tahoma, Verdana, Segoe, sans-serif",
+          "fontSize": 30,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(0, 0, 0)",
+          "textAlign": "left",
+          "lineHeight": 45,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n363",
+          "type": "text",
+          "x": 7603.43115234375,
+          "y": 7826.078125,
+          "width": 335.203125,
+          "height": 62.5673828125,
+          "content": "LETS WORK TOGATHER .",
+          "fontFamily": "Tahoma, Verdana, Segoe, sans-serif",
+          "fontSize": 30,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(0, 0, 0)",
+          "textAlign": "left",
+          "lineHeight": 45,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n365",
+          "type": "text",
+          "x": 7954.63427734375,
+          "y": 7807.67236328125,
+          "width": 335.20361328125,
+          "height": 62.56689453125,
+          "content": "LETS WORK TOGATHER .",
+          "fontFamily": "Tahoma, Verdana, Segoe, sans-serif",
+          "fontSize": 30,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(0, 0, 0)",
+          "textAlign": "left",
+          "lineHeight": 45,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n367",
+          "type": "text",
+          "x": 8305.837890625,
+          "y": 7789.2666015625,
+          "width": 335.203125,
+          "height": 62.56689453125,
+          "content": "LETS WORK TOGATHER .",
+          "fontFamily": "Tahoma, Verdana, Segoe, sans-serif",
+          "fontSize": 30,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(0, 0, 0)",
+          "textAlign": "left",
+          "lineHeight": 45,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n369",
+          "type": "text",
+          "x": 8657.041015625,
+          "y": 7770.86083984375,
+          "width": 335.203125,
+          "height": 62.56689453125,
+          "content": "LETS WORK TOGATHER .",
+          "fontFamily": "Tahoma, Verdana, Segoe, sans-serif",
+          "fontSize": 30,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(0, 0, 0)",
+          "textAlign": "left",
+          "lineHeight": 45,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n371",
+          "type": "text",
+          "x": 9008.244140625,
+          "y": 7752.455078125,
+          "width": 335.203125,
+          "height": 62.56689453125,
+          "content": "LETS WORK TOGATHER .",
+          "fontFamily": "Tahoma, Verdana, Segoe, sans-serif",
+          "fontSize": 30,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(0, 0, 0)",
+          "textAlign": "left",
+          "lineHeight": 45,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n372",
+          "type": "rect",
+          "x": 0,
+          "y": 8189.61767578125,
+          "width": 1440,
+          "height": 177.98388671875,
+          "fill": "rgb(0, 0, 0)"
+        },
+        {
+          "id": "n376",
+          "type": "image",
+          "x": -9814.216796875,
+          "y": 7336.48486328125,
+          "width": 47,
+          "height": 45.11181640625,
+          "src": "http://localhost:3001/assets/4e811a60.svg",
+          "objectFit": "fill"
+        },
+        {
+          "id": "n377",
+          "type": "text",
+          "x": -9757.216796875,
+          "y": 7343.9716796875,
+          "width": 332.03125,
+          "height": 65.048828125,
+          "content": "CLIENT SATISFACTION",
+          "fontFamily": "Adieu, \"Palatino Linotype\", sans-serif",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 36,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n379",
+          "type": "image",
+          "x": -9409.185546875,
+          "y": 7371.90478515625,
+          "width": 47,
+          "height": 45.11181640625,
+          "src": "http://localhost:3001/assets/4e811a60.svg",
+          "objectFit": "fill"
+        },
+        {
+          "id": "n380",
+          "type": "text",
+          "x": -9352.185546875,
+          "y": 7379.3916015625,
+          "width": 320.390625,
+          "height": 64.03076171875,
+          "content": "RESPONSIVE DESIGN",
+          "fontFamily": "Adieu, \"Palatino Linotype\", sans-serif",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 36,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n382",
+          "type": "image",
+          "x": -9015.794921875,
+          "y": 7406.322265625,
+          "width": 47,
+          "height": 45.11181640625,
+          "src": "http://localhost:3001/assets/4e811a60.svg",
+          "objectFit": "fill"
+        },
+        {
+          "id": "n383",
+          "type": "text",
+          "x": -8958.794921875,
+          "y": 7413.80908203125,
+          "width": 309,
+          "height": 63.03369140625,
+          "content": "FIGMA TO WEBFLOW",
+          "fontFamily": "Adieu, \"Palatino Linotype\", sans-serif",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 36,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n385",
+          "type": "image",
+          "x": -8633.794921875,
+          "y": 7439.74267578125,
+          "width": 47,
+          "height": 45.11181640625,
+          "src": "http://localhost:3001/assets/4e811a60.svg",
+          "objectFit": "fill"
+        },
+        {
+          "id": "n386",
+          "type": "text",
+          "x": -8576.794921875,
+          "y": 7447.2294921875,
+          "width": 234.65625,
+          "height": 56.52978515625,
+          "content": "SAAS WEBSITE",
+          "fontFamily": "Adieu, \"Palatino Linotype\", sans-serif",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 36,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n388",
+          "type": "image",
+          "x": -8326.138671875,
+          "y": 7466.6591796875,
+          "width": 47,
+          "height": 45.11181640625,
+          "src": "http://localhost:3001/assets/4e811a60.svg",
+          "objectFit": "fill"
+        },
+        {
+          "id": "n389",
+          "type": "text",
+          "x": -8269.138671875,
+          "y": 7474.14599609375,
+          "width": 234.65673828125,
+          "height": 56.52978515625,
+          "content": "SAAS WEBSITE",
+          "fontFamily": "Adieu, \"Palatino Linotype\", sans-serif",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 36,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n391",
+          "type": "image",
+          "x": -8018.48193359375,
+          "y": 7493.57568359375,
+          "width": 47,
+          "height": 45.11181640625,
+          "src": "http://localhost:3001/assets/4e811a60.svg",
+          "objectFit": "fill"
+        },
+        {
+          "id": "n392",
+          "type": "text",
+          "x": -7961.48193359375,
+          "y": 7501.0625,
+          "width": 234.65625,
+          "height": 56.52978515625,
+          "content": "SAAS WEBSITE",
+          "fontFamily": "Adieu, \"Palatino Linotype\", sans-serif",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 36,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n394",
+          "type": "image",
+          "x": -7710.82568359375,
+          "y": 7520.4921875,
+          "width": 47,
+          "height": 45.11181640625,
+          "src": "http://localhost:3001/assets/4e811a60.svg",
+          "objectFit": "fill"
+        },
+        {
+          "id": "n395",
+          "type": "text",
+          "x": -7653.82568359375,
+          "y": 7527.97900390625,
+          "width": 234.65625,
+          "height": 56.52978515625,
+          "content": "SAAS WEBSITE",
+          "fontFamily": "Adieu, \"Palatino Linotype\", sans-serif",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 36,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n397",
+          "type": "image",
+          "x": -7403.16943359375,
+          "y": 7547.40869140625,
+          "width": 47,
+          "height": 45.11181640625,
+          "src": "http://localhost:3001/assets/4e811a60.svg",
+          "objectFit": "fill"
+        },
+        {
+          "id": "n398",
+          "type": "text",
+          "x": -7346.16943359375,
+          "y": 7554.8955078125,
+          "width": 234.65625,
+          "height": 56.52978515625,
+          "content": "SAAS WEBSITE",
+          "fontFamily": "Adieu, \"Palatino Linotype\", sans-serif",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 36,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n400",
+          "type": "image",
+          "x": -7095.51318359375,
+          "y": 7574.3251953125,
+          "width": 47,
+          "height": 45.11181640625,
+          "src": "http://localhost:3001/assets/4e811a60.svg",
+          "objectFit": "fill"
+        },
+        {
+          "id": "n401",
+          "type": "text",
+          "x": -7038.51318359375,
+          "y": 7581.81201171875,
+          "width": 234.65625,
+          "height": 56.52978515625,
+          "content": "SAAS WEBSITE",
+          "fontFamily": "Adieu, \"Palatino Linotype\", sans-serif",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 36,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n403",
+          "type": "image",
+          "x": -6787.85693359375,
+          "y": 7601.2412109375,
+          "width": 47,
+          "height": 45.1123046875,
+          "src": "http://localhost:3001/assets/4e811a60.svg",
+          "objectFit": "fill"
+        },
+        {
+          "id": "n404",
+          "type": "text",
+          "x": -6730.85693359375,
+          "y": 7608.72802734375,
+          "width": 234.65625,
+          "height": 56.52978515625,
+          "content": "SAAS WEBSITE",
+          "fontFamily": "Adieu, \"Palatino Linotype\", sans-serif",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 36,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n406",
+          "type": "image",
+          "x": -6480.20068359375,
+          "y": 7628.15771484375,
+          "width": 47,
+          "height": 45.11181640625,
+          "src": "http://localhost:3001/assets/4e811a60.svg",
+          "objectFit": "fill"
+        },
+        {
+          "id": "n407",
+          "type": "text",
+          "x": -6423.20068359375,
+          "y": 7635.64453125,
+          "width": 234.65625,
+          "height": 56.52978515625,
+          "content": "SAAS WEBSITE",
+          "fontFamily": "Adieu, \"Palatino Linotype\", sans-serif",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 36,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n409",
+          "type": "image",
+          "x": -6172.54443359375,
+          "y": 7655.07421875,
+          "width": 47,
+          "height": 45.11181640625,
+          "src": "http://localhost:3001/assets/4e811a60.svg",
+          "objectFit": "fill"
+        },
+        {
+          "id": "n410",
+          "type": "text",
+          "x": -6115.54443359375,
+          "y": 7662.56103515625,
+          "width": 234.65625,
+          "height": 56.52978515625,
+          "content": "SAAS WEBSITE",
+          "fontFamily": "Adieu, \"Palatino Linotype\", sans-serif",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 36,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n412",
+          "type": "image",
+          "x": -5864.88818359375,
+          "y": 7682.00634765625,
+          "width": 47,
+          "height": 45.11181640625,
+          "src": "http://localhost:3001/assets/4e811a60.svg",
+          "objectFit": "fill"
+        },
+        {
+          "id": "n413",
+          "type": "text",
+          "x": -5807.88818359375,
+          "y": 7689.4931640625,
+          "width": 332.03125,
+          "height": 65.048828125,
+          "content": "CLIENT SATISFACTION",
+          "fontFamily": "Adieu, \"Palatino Linotype\", sans-serif",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 36,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n415",
+          "type": "image",
+          "x": -5459.85693359375,
+          "y": 7717.42626953125,
+          "width": 47,
+          "height": 45.11181640625,
+          "src": "http://localhost:3001/assets/4e811a60.svg",
+          "objectFit": "fill"
+        },
+        {
+          "id": "n416",
+          "type": "text",
+          "x": -5402.85693359375,
+          "y": 7724.9130859375,
+          "width": 320.390625,
+          "height": 64.03076171875,
+          "content": "RESPONSIVE DESIGN",
+          "fontFamily": "Adieu, \"Palatino Linotype\", sans-serif",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 36,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n418",
+          "type": "image",
+          "x": -5066.46630859375,
+          "y": 7751.84375,
+          "width": 47,
+          "height": 45.11181640625,
+          "src": "http://localhost:3001/assets/4e811a60.svg",
+          "objectFit": "fill"
+        },
+        {
+          "id": "n419",
+          "type": "text",
+          "x": -5009.46630859375,
+          "y": 7759.33056640625,
+          "width": 309,
+          "height": 63.03369140625,
+          "content": "FIGMA TO WEBFLOW",
+          "fontFamily": "Adieu, \"Palatino Linotype\", sans-serif",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 36,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n421",
+          "type": "image",
+          "x": -4684.46630859375,
+          "y": 7785.26416015625,
+          "width": 47,
+          "height": 45.11181640625,
+          "src": "http://localhost:3001/assets/4e811a60.svg",
+          "objectFit": "fill"
+        },
+        {
+          "id": "n422",
+          "type": "text",
+          "x": -4627.46630859375,
+          "y": 7792.7509765625,
+          "width": 234.65625,
+          "height": 56.52978515625,
+          "content": "SAAS WEBSITE",
+          "fontFamily": "Adieu, \"Palatino Linotype\", sans-serif",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 36,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n424",
+          "type": "image",
+          "x": -4376.81005859375,
+          "y": 7812.1806640625,
+          "width": 47,
+          "height": 45.11181640625,
+          "src": "http://localhost:3001/assets/4e811a60.svg",
+          "objectFit": "fill"
+        },
+        {
+          "id": "n425",
+          "type": "text",
+          "x": -4319.81005859375,
+          "y": 7819.66748046875,
+          "width": 234.65625,
+          "height": 56.52978515625,
+          "content": "SAAS WEBSITE",
+          "fontFamily": "Adieu, \"Palatino Linotype\", sans-serif",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 36,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n427",
+          "type": "image",
+          "x": -4069.15380859375,
+          "y": 7839.09716796875,
+          "width": 47,
+          "height": 45.11181640625,
+          "src": "http://localhost:3001/assets/4e811a60.svg",
+          "objectFit": "fill"
+        },
+        {
+          "id": "n428",
+          "type": "text",
+          "x": -4012.15380859375,
+          "y": 7846.583984375,
+          "width": 234.65625,
+          "height": 56.52978515625,
+          "content": "SAAS WEBSITE",
+          "fontFamily": "Adieu, \"Palatino Linotype\", sans-serif",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 36,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n430",
+          "type": "image",
+          "x": -3761.49755859375,
+          "y": 7866.013671875,
+          "width": 47,
+          "height": 45.11181640625,
+          "src": "http://localhost:3001/assets/4e811a60.svg",
+          "objectFit": "fill"
+        },
+        {
+          "id": "n431",
+          "type": "text",
+          "x": -3704.49755859375,
+          "y": 7873.50048828125,
+          "width": 234.65625,
+          "height": 56.52978515625,
+          "content": "SAAS WEBSITE",
+          "fontFamily": "Adieu, \"Palatino Linotype\", sans-serif",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 36,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n433",
+          "type": "image",
+          "x": -3453.84130859375,
+          "y": 7892.93017578125,
+          "width": 47,
+          "height": 45.11181640625,
+          "src": "http://localhost:3001/assets/4e811a60.svg",
+          "objectFit": "fill"
+        },
+        {
+          "id": "n434",
+          "type": "text",
+          "x": -3396.84130859375,
+          "y": 7900.4169921875,
+          "width": 234.65625,
+          "height": 56.52978515625,
+          "content": "SAAS WEBSITE",
+          "fontFamily": "Adieu, \"Palatino Linotype\", sans-serif",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 36,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n436",
+          "type": "image",
+          "x": -3146.18505859375,
+          "y": 7919.84619140625,
+          "width": 47,
+          "height": 45.1123046875,
+          "src": "http://localhost:3001/assets/4e811a60.svg",
+          "objectFit": "fill"
+        },
+        {
+          "id": "n437",
+          "type": "text",
+          "x": -3089.18505859375,
+          "y": 7927.3330078125,
+          "width": 234.65625,
+          "height": 56.52978515625,
+          "content": "SAAS WEBSITE",
+          "fontFamily": "Adieu, \"Palatino Linotype\", sans-serif",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 36,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n439",
+          "type": "image",
+          "x": -2838.52880859375,
+          "y": 7946.7626953125,
+          "width": 47,
+          "height": 45.1123046875,
+          "src": "http://localhost:3001/assets/4e811a60.svg",
+          "objectFit": "fill"
+        },
+        {
+          "id": "n440",
+          "type": "text",
+          "x": -2781.52880859375,
+          "y": 7954.24951171875,
+          "width": 234.65625,
+          "height": 56.52978515625,
+          "content": "SAAS WEBSITE",
+          "fontFamily": "Adieu, \"Palatino Linotype\", sans-serif",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 36,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n442",
+          "type": "image",
+          "x": -2530.87255859375,
+          "y": 7973.67919921875,
+          "width": 47,
+          "height": 45.11181640625,
+          "src": "http://localhost:3001/assets/4e811a60.svg",
+          "objectFit": "fill"
+        },
+        {
+          "id": "n443",
+          "type": "text",
+          "x": -2473.87255859375,
+          "y": 7981.166015625,
+          "width": 234.65625,
+          "height": 56.52978515625,
+          "content": "SAAS WEBSITE",
+          "fontFamily": "Adieu, \"Palatino Linotype\", sans-serif",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 36,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n445",
+          "type": "image",
+          "x": -2223.21630859375,
+          "y": 8000.595703125,
+          "width": 47,
+          "height": 45.11181640625,
+          "src": "http://localhost:3001/assets/4e811a60.svg",
+          "objectFit": "fill"
+        },
+        {
+          "id": "n446",
+          "type": "text",
+          "x": -2166.21630859375,
+          "y": 8008.08251953125,
+          "width": 234.65625,
+          "height": 56.52978515625,
+          "content": "SAAS WEBSITE",
+          "fontFamily": "Adieu, \"Palatino Linotype\", sans-serif",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 36,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n448",
+          "type": "image",
+          "x": -1915.56005859375,
+          "y": 8027.52783203125,
+          "width": 47,
+          "height": 45.11181640625,
+          "src": "http://localhost:3001/assets/4e811a60.svg",
+          "objectFit": "fill"
+        },
+        {
+          "id": "n449",
+          "type": "text",
+          "x": -1858.56005859375,
+          "y": 8035.0146484375,
+          "width": 332.03125,
+          "height": 65.048828125,
+          "content": "CLIENT SATISFACTION",
+          "fontFamily": "Adieu, \"Palatino Linotype\", sans-serif",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 36,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n451",
+          "type": "image",
+          "x": -1510.52880859375,
+          "y": 8062.94775390625,
+          "width": 47,
+          "height": 45.11181640625,
+          "src": "http://localhost:3001/assets/4e811a60.svg",
+          "objectFit": "fill"
+        },
+        {
+          "id": "n452",
+          "type": "text",
+          "x": -1453.52880859375,
+          "y": 8070.4345703125,
+          "width": 320.390625,
+          "height": 64.03076171875,
+          "content": "RESPONSIVE DESIGN",
+          "fontFamily": "Adieu, \"Palatino Linotype\", sans-serif",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 36,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n454",
+          "type": "image",
+          "x": -1117.13818359375,
+          "y": 8097.36474609375,
+          "width": 47,
+          "height": 45.1123046875,
+          "src": "http://localhost:3001/assets/4e811a60.svg",
+          "objectFit": "fill"
+        },
+        {
+          "id": "n455",
+          "type": "text",
+          "x": -1060.13818359375,
+          "y": 8104.85205078125,
+          "width": 309,
+          "height": 63.03369140625,
+          "content": "FIGMA TO WEBFLOW",
+          "fontFamily": "Adieu, \"Palatino Linotype\", sans-serif",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 36,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n457",
+          "type": "image",
+          "x": -735.13818359375,
+          "y": 8130.78564453125,
+          "width": 47,
+          "height": 45.11181640625,
+          "src": "http://localhost:3001/assets/4e811a60.svg",
+          "objectFit": "fill"
+        },
+        {
+          "id": "n458",
+          "type": "text",
+          "x": -678.13818359375,
+          "y": 8138.2724609375,
+          "width": 234.65625,
+          "height": 56.5302734375,
+          "content": "SAAS WEBSITE",
+          "fontFamily": "Adieu, \"Palatino Linotype\", sans-serif",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 36,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n460",
+          "type": "image",
+          "x": -427.48193359375,
+          "y": 8157.7021484375,
+          "width": 47,
+          "height": 45.1123046875,
+          "src": "http://localhost:3001/assets/4e811a60.svg",
+          "objectFit": "fill"
+        },
+        {
+          "id": "n461",
+          "type": "text",
+          "x": -370.48193359375,
+          "y": 8165.18896484375,
+          "width": 234.65625,
+          "height": 56.52978515625,
+          "content": "SAAS WEBSITE",
+          "fontFamily": "Adieu, \"Palatino Linotype\", sans-serif",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 36,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n463",
+          "type": "image",
+          "x": -119.82568359375,
+          "y": 8184.61865234375,
+          "width": 47,
+          "height": 45.11181640625,
+          "src": "http://localhost:3001/assets/4e811a60.svg",
+          "objectFit": "fill"
+        },
+        {
+          "id": "n464",
+          "type": "text",
+          "x": -62.82568359375,
+          "y": 8192.10546875,
+          "width": 234.65625,
+          "height": 56.529296875,
+          "content": "SAAS WEBSITE",
+          "fontFamily": "Adieu, \"Palatino Linotype\", sans-serif",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 36,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n466",
+          "type": "image",
+          "x": 187.83056640625,
+          "y": 8211.53515625,
+          "width": 47,
+          "height": 45.111328125,
+          "src": "http://localhost:3001/assets/4e811a60.svg",
+          "objectFit": "fill"
+        },
+        {
+          "id": "n467",
+          "type": "text",
+          "x": 244.83056640625,
+          "y": 8219.021484375,
+          "width": 234.65625,
+          "height": 56.5302734375,
+          "content": "SAAS WEBSITE",
+          "fontFamily": "Adieu, \"Palatino Linotype\", sans-serif",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 36,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n469",
+          "type": "image",
+          "x": 495.48681640625,
+          "y": 8238.451171875,
+          "width": 47,
+          "height": 45.1123046875,
+          "src": "http://localhost:3001/assets/4e811a60.svg",
+          "objectFit": "fill"
+        },
+        {
+          "id": "n470",
+          "type": "text",
+          "x": 552.48681640625,
+          "y": 8245.9384765625,
+          "width": 234.65625,
+          "height": 56.529296875,
+          "content": "SAAS WEBSITE",
+          "fontFamily": "Adieu, \"Palatino Linotype\", sans-serif",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 36,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n472",
+          "type": "image",
+          "x": 803.14306640625,
+          "y": 8265.3681640625,
+          "width": 47,
+          "height": 45.111328125,
+          "src": "http://localhost:3001/assets/4e811a60.svg",
+          "objectFit": "fill"
+        },
+        {
+          "id": "n473",
+          "type": "text",
+          "x": 860.14306640625,
+          "y": 8272.8544921875,
+          "width": 234.65625,
+          "height": 56.5302734375,
+          "content": "SAAS WEBSITE",
+          "fontFamily": "Adieu, \"Palatino Linotype\", sans-serif",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 36,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n475",
+          "type": "image",
+          "x": 1110.79931640625,
+          "y": 8292.2841796875,
+          "width": 47,
+          "height": 45.1123046875,
+          "src": "http://localhost:3001/assets/4e811a60.svg",
+          "objectFit": "fill"
+        },
+        {
+          "id": "n476",
+          "type": "text",
+          "x": 1167.79931640625,
+          "y": 8299.771484375,
+          "width": 234.65625,
+          "height": 56.529296875,
+          "content": "SAAS WEBSITE",
+          "fontFamily": "Adieu, \"Palatino Linotype\", sans-serif",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 36,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n478",
+          "type": "image",
+          "x": 1418.45556640625,
+          "y": 8319.201171875,
+          "width": 47,
+          "height": 45.111328125,
+          "src": "http://localhost:3001/assets/4e811a60.svg",
+          "objectFit": "fill"
+        },
+        {
+          "id": "n479",
+          "type": "text",
+          "x": 1475.45556640625,
+          "y": 8326.6875,
+          "width": 234.65625,
+          "height": 56.5302734375,
+          "content": "SAAS WEBSITE",
+          "fontFamily": "Adieu, \"Palatino Linotype\", sans-serif",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 36,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n481",
+          "type": "image",
+          "x": 1726.11181640625,
+          "y": 8346.1171875,
+          "width": 47,
+          "height": 45.1123046875,
+          "src": "http://localhost:3001/assets/4e811a60.svg",
+          "objectFit": "fill"
+        },
+        {
+          "id": "n482",
+          "type": "text",
+          "x": 1783.11181640625,
+          "y": 8353.603515625,
+          "width": 234.65625,
+          "height": 56.5302734375,
+          "content": "SAAS WEBSITE",
+          "fontFamily": "Adieu, \"Palatino Linotype\", sans-serif",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 36,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n484",
+          "type": "image",
+          "x": 936,
+          "y": 8334.3125,
+          "width": 504,
+          "height": 774.75,
+          "src": "https://cdn.prod.website-files.com/689ec0eebc3e2f27014161f4/689ec0eebc3e2f27014162c4_star.avif",
+          "objectFit": "fill"
+        },
+        {
+          "id": "n485",
+          "type": "image",
+          "x": -144,
+          "y": 8060.3125,
+          "width": 719.984375,
+          "height": 1400.984375,
+          "src": "https://cdn.prod.website-files.com/689ec0eebc3e2f27014161f4/689ec0eebc3e2f270141625c_shadow.avif",
+          "objectFit": "fill"
+        },
+        {
+          "id": "n496",
+          "type": "rect",
+          "x": 74.39628601074219,
+          "y": 8427.609375,
+          "width": 10.207427978515625,
+          "height": 33
+        },
+        {
+          "id": "n499",
+          "type": "rect",
+          "x": 1330.615478515625,
+          "y": 8427.609375,
+          "width": 25.76904296875,
+          "height": 33
+        },
+        {
+          "id": "n502",
+          "type": "rect",
+          "x": 66.61544799804688,
+          "y": 8988.03125,
+          "width": 25.76910400390625,
+          "height": 33
+        },
+        {
+          "id": "n505",
+          "type": "rect",
+          "x": 1330.615478515625,
+          "y": 8988.03125,
+          "width": 25.76904296875,
+          "height": 33
+        },
+        {
+          "id": "n512",
+          "type": "rect",
+          "x": 74.39628601074219,
+          "y": 8427.609375,
+          "width": 10.207427978515625,
+          "height": 33
+        },
+        {
+          "id": "n514",
+          "type": "text",
+          "x": 80,
+          "y": 8449.6875,
+          "width": 352.828125,
+          "height": 95.1875,
+          "content": "Let's Create",
+          "fontFamily": "\"Apercu Font Family\", Georgia, sans-serif",
+          "fontSize": 68,
+          "fontWeight": 500,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 95.2,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n515",
+          "type": "text",
+          "x": 80,
+          "y": 8544.8798828125,
+          "width": 499.25,
+          "height": 95.1875,
+          "content": "Your New Brand",
+          "fontFamily": "\"Apercu Font Family\", Georgia, sans-serif",
+          "fontSize": 68,
+          "fontWeight": 500,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 95.2,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n517",
+          "type": "image",
+          "x": 1213.5,
+          "y": 8498.375,
+          "width": 93,
+          "height": 93,
+          "src": "http://localhost:3001/assets/279ebc0b.avif",
+          "objectFit": "cover"
+        },
+        {
+          "id": "n518",
+          "type": "image",
+          "x": 1160,
+          "y": 8444.609375,
+          "width": 200,
+          "height": 200.53125,
+          "src": "http://localhost:3001/assets/f2c8ca55.avif",
+          "objectFit": "fill"
+        },
+        {
+          "id": "n521",
+          "type": "text",
+          "x": 80,
+          "y": 8645.140625,
+          "width": 107.578125,
+          "height": 24,
+          "content": "Copy E-mail →",
+          "fontFamily": "\"Erode Complete\", Arial, sans-serif",
+          "fontSize": 16,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgba(255, 255, 255, 0.7)",
+          "textAlign": "left",
+          "lineHeight": 24,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n523",
+          "type": "rect",
+          "x": 197.578125,
+          "y": 8647.1455078125,
+          "width": 20,
+          "height": 20
+        },
+        {
+          "id": "n528",
+          "type": "text",
+          "x": 1167.96875,
+          "y": 8699.140625,
+          "width": 87.328125,
+          "height": 36,
+          "content": "Linkedin",
+          "fontFamily": "Tahoma, Verdana, Segoe, sans-serif",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 36,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n529",
+          "type": "text",
+          "x": 1300.296875,
+          "y": 8699.1455078125,
+          "width": 59.703125,
+          "height": 36,
+          "content": "Fiverr",
+          "fontFamily": "Tahoma, Verdana, Segoe, sans-serif",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgb(255, 255, 255)",
+          "textAlign": "left",
+          "lineHeight": 36,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n530",
+          "type": "text",
+          "x": -595,
+          "y": 8735.140625,
+          "width": 1880,
+          "height": 317.890625,
+          "content": "Abdul Rehman",
+          "fontFamily": "Tahoma, Verdana, Segoe, sans-serif",
+          "fontSize": 289,
+          "fontWeight": 700,
+          "fontStyle": "normal",
+          "color": "rgba(0, 0, 0, 0)",
+          "textAlign": "left",
+          "lineHeight": 317.9,
+          "textDecoration": "none"
+        },
+        {
+          "id": "n531",
+          "type": "image",
+          "x": 1274,
+          "y": 866,
+          "width": 26,
+          "height": 16,
+          "src": "http://localhost:3001/assets/bfb47302.svg",
+          "objectFit": "fill"
+        },
+        {
+          "id": "n532",
+          "type": "image",
+          "x": 1304,
+          "y": 868,
+          "width": 118,
+          "height": 12,
+          "src": "http://localhost:3001/assets/eb09acee.svg",
+          "objectFit": "fill"
+        },
+        {
+          "id": "n534",
+          "type": "rect",
+          "x": 80,
+          "y": 782.390625,
+          "width": 626,
+          "height": 600,
+          "borderRadius": 28
+        },
+        {
+          "id": "n535",
+          "type": "rect",
+          "x": 734,
+          "y": 782.390625,
+          "width": 626,
+          "height": 600,
+          "borderRadius": 28
+        },
+        {
+          "id": "n536",
+          "type": "rect",
+          "x": 80,
+          "y": 1410.390625,
+          "width": 626,
+          "height": 600,
+          "borderRadius": 28
+        },
+        {
+          "id": "n537",
+          "type": "rect",
+          "x": 734,
+          "y": 1410.390625,
+          "width": 626,
+          "height": 600,
+          "borderRadius": 28
+        },
+        {
+          "id": "n538",
+          "type": "rect",
+          "x": 80,
+          "y": 2038.390625,
+          "width": 626,
+          "height": 600,
+          "borderRadius": 28
+        },
+        {
+          "id": "n539",
+          "type": "rect",
+          "x": 734,
+          "y": 2038.390625,
+          "width": 626,
+          "height": 600,
+          "borderRadius": 28
+        },
+        {
+          "id": "n540",
+          "type": "rect",
+          "x": 80,
+          "y": 2666.390625,
+          "width": 626,
+          "height": 600,
+          "borderRadius": 28
+        },
+        {
+          "id": "n541",
+          "type": "rect",
+          "x": 734,
+          "y": 2666.390625,
+          "width": 626,
+          "height": 600,
+          "borderRadius": 28
+        },
+        {
+          "id": "n542",
+          "type": "rect",
+          "x": 80,
+          "y": 3294.390625,
+          "width": 1280,
+          "height": 600,
+          "borderRadius": 28
+        },
+        {
+          "id": "n543",
+          "type": "rect",
+          "x": 80,
+          "y": 3922.390625,
+          "width": 626,
+          "height": 600,
+          "borderRadius": 28
+        },
+        {
+          "id": "n544",
+          "type": "rect",
+          "x": 734,
+          "y": 3922.390625,
+          "width": 626,
+          "height": 600,
+          "borderRadius": 28
+        },
+        {
+          "id": "n545",
+          "type": "rect",
+          "x": 80,
+          "y": 4550.390625,
+          "width": 1280,
+          "height": 600,
+          "borderRadius": 28
+        },
+        {
+          "id": "n548",
+          "type": "rect",
+          "x": 0,
+          "y": 8162.8759765625,
+          "width": 1440,
+          "height": 127.466796875,
+          "fill": "rgb(189, 254, 0)"
+        },
+        {
+          "id": "n551",
+          "type": "rect",
+          "x": 362,
+          "y": 223,
+          "width": 177,
+          "height": 223,
+          "fill": {
+            "type": "linear-gradient",
+            "angle": 51,
+            "stops": [
+              {
+                "color": "rgb(209, 255, 5)",
+                "position": 0
+              },
+              {
+                "color": "rgba(0, 0, 0, 0)",
+                "position": 0.52
+              }
+            ]
+          },
+          "borderRadius": 6,
+          "opacity": 0
+        },
+        {
+          "id": "n552",
+          "type": "rect",
+          "x": 1086,
+          "y": 223,
+          "width": 177,
+          "height": 223,
+          "fill": {
+            "type": "linear-gradient",
+            "angle": 51,
+            "stops": [
+              {
+                "color": "rgb(209, 255, 5)",
+                "position": 0
+              },
+              {
+                "color": "rgba(0, 0, 0, 0)",
+                "position": 0.52
+              }
+            ]
+          },
+          "borderRadius": 6,
+          "opacity": 0
+        },
+        {
+          "id": "n553",
+          "type": "rect",
+          "x": 177,
+          "y": 454,
+          "width": 177,
+          "height": 223,
+          "fill": {
+            "type": "linear-gradient",
+            "angle": 219,
+            "stops": [
+              {
+                "color": "rgb(209, 255, 5)",
+                "position": 0
+              },
+              {
+                "color": "rgba(0, 0, 0, 0)",
+                "position": 0.52
+              }
+            ]
+          },
+          "borderRadius": 6,
+          "opacity": 0
+        },
+        {
+          "id": "n554",
+          "type": "rect",
+          "x": 901,
+          "y": 454,
+          "width": 177,
+          "height": 223,
+          "fill": {
+            "type": "linear-gradient",
+            "angle": 219,
+            "stops": [
+              {
+                "color": "rgb(209, 255, 5)",
+                "position": 0
+              },
+              {
+                "color": "rgba(0, 0, 0, 0)",
+                "position": 0.52
+              }
+            ]
+          },
+          "borderRadius": 6,
+          "opacity": 0
+        },
+        {
+          "id": "n555",
+          "type": "rect",
+          "x": 1,
+          "y": 1,
+          "width": 352,
+          "height": 444,
+          "fill": {
+            "type": "linear-gradient",
+            "angle": 299,
+            "stops": [
+              {
+                "color": "rgba(12, 12, 12, 0.8)",
+                "position": 0
+              },
+              {
+                "color": "rgb(0, 0, 0)",
+                "position": 1
+              }
+            ]
+          },
+          "borderRadius": 6
+        },
+        {
+          "id": "n556",
+          "type": "rect",
+          "x": 363,
+          "y": 1,
+          "width": 352,
+          "height": 444,
+          "fill": {
+            "type": "linear-gradient",
+            "angle": 299,
+            "stops": [
+              {
+                "color": "rgb(15, 15, 15)",
+                "position": 0
+              },
+              {
+                "color": "rgb(0, 0, 0)",
+                "position": 1
+              }
+            ]
+          },
+          "borderRadius": 6
+        },
+        {
+          "id": "n557",
+          "type": "rect",
+          "x": 363,
+          "y": 1,
+          "width": 352,
+          "height": 444,
+          "fill": {
+            "type": "linear-gradient",
+            "angle": 135,
+            "stops": [
+              {
+                "color": "rgba(10, 10, 10, 0.21)",
+                "position": 0
+              },
+              {
+                "color": "rgb(0, 0, 0)",
+                "position": 1
+              }
+            ]
+          },
+          "borderRadius": 6,
+          "opacity": 0
+        },
+        {
+          "id": "n558",
+          "type": "rect",
+          "x": 725,
+          "y": 1,
+          "width": 352,
+          "height": 444,
+          "fill": {
+            "type": "linear-gradient",
+            "angle": 299,
+            "stops": [
+              {
+                "color": "rgba(12, 12, 12, 0.8)",
+                "position": 0
+              },
+              {
+                "color": "rgb(0, 0, 0)",
+                "position": 1
+              }
+            ]
+          },
+          "borderRadius": 6
+        },
+        {
+          "id": "n559",
+          "type": "rect",
+          "x": 1087,
+          "y": 1,
+          "width": 352,
+          "height": 444,
+          "fill": {
+            "type": "linear-gradient",
+            "angle": 299,
+            "stops": [
+              {
+                "color": "rgb(15, 15, 15)",
+                "position": 0
+              },
+              {
+                "color": "rgb(0, 0, 0)",
+                "position": 1
+              }
+            ]
+          },
+          "borderRadius": 6
+        },
+        {
+          "id": "n560",
+          "type": "rect",
+          "x": 1087,
+          "y": 1,
+          "width": 352,
+          "height": 444,
+          "fill": {
+            "type": "linear-gradient",
+            "angle": 299,
+            "stops": [
+              {
+                "color": "rgba(10, 10, 10, 0.21)",
+                "position": 0
+              },
+              {
+                "color": "rgb(0, 0, 0)",
+                "position": 1
+              }
+            ]
+          },
+          "borderRadius": 6,
+          "opacity": 0
+        },
+        {
+          "id": "n561",
+          "type": "rect",
+          "x": 1,
+          "y": 455,
+          "width": 352,
+          "height": 444,
+          "fill": {
+            "type": "linear-gradient",
+            "angle": 299,
+            "stops": [
+              {
+                "color": "rgba(12, 12, 12, 0.8)",
+                "position": 0
+              },
+              {
+                "color": "rgb(0, 0, 0)",
+                "position": 1
+              }
+            ]
+          },
+          "borderRadius": 6
+        },
+        {
+          "id": "n562",
+          "type": "rect",
+          "x": 1,
+          "y": 455,
+          "width": 352,
+          "height": 444,
+          "fill": {
+            "type": "linear-gradient",
+            "angle": 121,
+            "stops": [
+              {
+                "color": "rgba(10, 10, 10, 0.21)",
+                "position": 0
+              },
+              {
+                "color": "rgb(0, 0, 0)",
+                "position": 1
+              }
+            ]
+          },
+          "borderRadius": 6,
+          "opacity": 0
+        },
+        {
+          "id": "n563",
+          "type": "rect",
+          "x": 363,
+          "y": 455,
+          "width": 352,
+          "height": 444,
+          "fill": {
+            "type": "linear-gradient",
+            "angle": 113,
+            "stops": [
+              {
+                "color": "rgba(12, 12, 12, 0.8)",
+                "position": 0
+              },
+              {
+                "color": "rgb(0, 0, 0)",
+                "position": 1
+              }
+            ]
+          },
+          "borderRadius": 6
+        },
+        {
+          "id": "n564",
+          "type": "rect",
+          "x": 725,
+          "y": 455,
+          "width": 352,
+          "height": 444,
+          "fill": {
+            "type": "linear-gradient",
+            "angle": 299,
+            "stops": [
+              {
+                "color": "rgba(12, 12, 12, 0.8)",
+                "position": 0
+              },
+              {
+                "color": "rgb(0, 0, 0)",
+                "position": 1
+              }
+            ]
+          },
+          "borderRadius": 6
+        },
+        {
+          "id": "n565",
+          "type": "rect",
+          "x": 725,
+          "y": 455,
+          "width": 352,
+          "height": 444,
+          "fill": {
+            "type": "linear-gradient",
+            "angle": 121,
+            "stops": [
+              {
+                "color": "rgba(10, 10, 10, 0.21)",
+                "position": 0
+              },
+              {
+                "color": "rgb(0, 0, 0)",
+                "position": 1
+              }
+            ]
+          },
+          "borderRadius": 6,
+          "opacity": 0
+        },
+        {
+          "id": "n566",
+          "type": "rect",
+          "x": 1087,
+          "y": 455,
+          "width": 352,
+          "height": 444,
+          "fill": {
+            "type": "linear-gradient",
+            "angle": 113,
+            "stops": [
+              {
+                "color": "rgba(12, 12, 12, 0.8)",
+                "position": 0
+              },
+              {
+                "color": "rgb(0, 0, 0)",
+                "position": 1
+              }
+            ]
+          },
+          "borderRadius": 6
+        },
+        {
+          "id": "n568",
+          "type": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 354,
+          "height": 446,
+          "borderRadius": 6
+        },
+        {
+          "id": "n569",
+          "type": "rect",
+          "x": 362,
+          "y": 0,
+          "width": 354,
+          "height": 446,
+          "borderRadius": 6
+        },
+        {
+          "id": "n570",
+          "type": "rect",
+          "x": 724,
+          "y": 0,
+          "width": 354,
+          "height": 446,
+          "borderRadius": 6
+        },
+        {
+          "id": "n571",
+          "type": "rect",
+          "x": 1086,
+          "y": 0,
+          "width": 354,
+          "height": 446,
+          "borderRadius": 6
+        },
+        {
+          "id": "n572",
+          "type": "rect",
+          "x": 0,
+          "y": 454,
+          "width": 354,
+          "height": 446,
+          "borderRadius": 6
+        },
+        {
+          "id": "n573",
+          "type": "rect",
+          "x": 362,
+          "y": 454,
+          "width": 354,
+          "height": 446,
+          "borderRadius": 6
+        },
+        {
+          "id": "n574",
+          "type": "rect",
+          "x": 724,
+          "y": 454,
+          "width": 354,
+          "height": 446,
+          "borderRadius": 6
+        },
+        {
+          "id": "n575",
+          "type": "rect",
+          "x": 1086,
+          "y": 454,
+          "width": 354,
+          "height": 446,
+          "borderRadius": 6
+        },
+        {
+          "id": "n576",
+          "type": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 225,
+          "fill": "rgb(3, 3, 10)"
+        },
+        {
+          "id": "n577",
+          "type": "rect",
+          "x": 0,
+          "y": 685,
+          "width": 1440,
+          "height": 225,
+          "fill": "rgb(0, 0, 0)"
+        },
+        {
+          "id": "n585",
+          "type": "rect",
+          "x": 1268,
+          "y": 859,
+          "width": 160,
+          "height": 29,
+          "fill": "rgb(255, 255, 255)",
+          "borderRadius": 3,
+          "effects": [
+            {
+              "color": "rgba(0, 0, 0, 0.1)",
+              "offsetX": 0,
+              "offsetY": 0,
+              "blur": 0,
+              "spread": 1
+            },
+            {
+              "color": "rgba(0, 0, 0, 0.1)",
+              "offsetX": 0,
+              "offsetY": 1,
+              "blur": 3,
+              "spread": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

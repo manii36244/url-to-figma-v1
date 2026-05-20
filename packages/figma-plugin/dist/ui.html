@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Inter, system-ui, sans-serif;
+      font-size: 13px;
+      color: #111;
+      background: #fff;
+      padding: 20px 16px 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    h2 { font-size: 14px; font-weight: 600; letter-spacing: -0.2px; }
+    label {
+      display: block; font-size: 11px; font-weight: 600; color: #666;
+      text-transform: uppercase; letter-spacing: 0.4px; margin-bottom: 5px;
+    }
+    input[type="text"], input[type="url"] {
+      width: 100%; padding: 7px 10px;
+      border: 1.5px solid #ddd; border-radius: 6px;
+      font-size: 12px; outline: none;
+      transition: border-color 0.15s;
+    }
+    input:focus { border-color: #18a0fb; }
+    button {
+      width: 100%; padding: 9px;
+      background: #18a0fb; color: #fff;
+      border: none; border-radius: 6px;
+      font-size: 13px; font-weight: 600;
+      cursor: pointer; transition: background 0.15s;
+    }
+    button:hover:not(:disabled) { background: #0d8de8; }
+    button:disabled { opacity: 0.45; cursor: default; }
+    #status {
+      font-size: 12px; min-height: 16px; line-height: 1.5;
+      color: #666; white-space: pre-wrap;
+    }
+    #status.ok      { color: #2d9e5e; }
+    #status.error   { color: #d93025; }
+    #status.working { color: #f5a623; }
+    .divider {
+      display: flex; align-items: center; gap: 8px;
+      font-size: 11px; color: #bbb;
+    }
+    .divider::before, .divider::after {
+      content: ''; flex: 1; height: 1px; background: #eee;
+    }
+    .advanced { display: flex; flex-direction: column; gap: 4px; }
+    .advanced-toggle {
+      font-size: 11px; color: #aaa; cursor: pointer;
+      text-decoration: underline; background: none; border: none;
+      padding: 0; text-align: left; width: auto;
+    }
+    .advanced-toggle:hover { color: #666; background: none; }
+    #advanced-row { display: none; flex-direction: column; gap: 4px; }
+    #advanced-row.open { display: flex; }
+  </style>
+</head>
+<body>
+  <h2>URL &#x2192; Figma</h2>
+
+  <!-- Primary: website URL -->
+  <div>
+    <label for="site-url">Website URL</label>
+    <input id="site-url" type="url" placeholder="https://example.com" />
+  </div>
+
+  <button id="capture-btn">Capture &amp; Apply</button>
+
+  <div id="status"></div>
+
+  <!-- Advanced: manual IR JSON URL override -->
+  <div class="advanced">
+    <div class="divider">advanced</div>
+    <div id="advanced-row">
+      <label for="ir-url">IR JSON URL (skip capture)</label>
+      <input id="ir-url" type="text" value="http://localhost:3001/ir.json"
+             placeholder="http://localhost:3001/ir.json" />
+      <button id="load-btn" style="margin-top:4px">Load IR JSON</button>
+    </div>
+    <button class="advanced-toggle" id="toggle-advanced">Show advanced options</button>
+  </div>
+
+  <script>
+    var siteUrlInput = document.getElementById('site-url');
+    var captureBtn   = document.getElementById('capture-btn');
+    var irUrlInput   = document.getElementById('ir-url');
+    var loadBtn      = document.getElementById('load-btn');
+    var statusEl     = document.getElementById('status');
+    var advRow       = document.getElementById('advanced-row');
+    var toggleBtn    = document.getElementById('toggle-advanced');
+
+    var SERVER = 'http://localhost:3001';
+    var polling = null;
+
+    function setStatus(msg, cls) {
+      statusEl.textContent = msg;
+      statusEl.className   = cls || '';
+    }
+
+    toggleBtn.addEventListener('click', function() {
+      var open = advRow.classList.toggle('open');
+      toggleBtn.textContent = open ? 'Hide advanced options' : 'Show advanced options';
+    });
+
+    function collectImageSrcs(nodes) {
+      var srcs = new Set();
+      function walk(list) {
+        for (var i = 0; i < list.length; i++) {
+          var n = list[i];
+          if (n.type === 'image' && n.src) srcs.add(n.src);
+          if (n.type === 'rect' && n.backgroundSrc) srcs.add(n.backgroundSrc);
+          if (n.children) walk(n.children);
+        }
+      }
+      walk(nodes);
+      return Array.from(srcs);
+    }
+
+    function fetchImageData(srcs) {
+      var imageData = {};
+      return Promise.all(srcs.map(function(src) {
+        return fetch(src).then(function(res) {
+          if (!res.ok) return;
+          return res.arrayBuffer().then(function(buf) {
+            imageData[src] = Array.from(new Uint8Array(buf));
+          });
+        }).catch(function() {});
+      })).then(function() { return imageData; });
+    }
+
+    function applyFromUrl(irUrl) {
+      setStatus('Fetching IR JSON…', 'working');
+      return fetch(irUrl).then(function(res) {
+        if (!res.ok) throw new Error('HTTP ' + res.status + ' from ' + irUrl);
+        return res.json();
+      }).then(function(doc) {
+        var srcs = collectImageSrcs(doc.nodes || []);
+        if (srcs.length) setStatus('Fetching ' + srcs.length + ' image(s)…', 'working');
+        return fetchImageData(srcs).then(function(imageData) {
+          setStatus('Sending to Figma…', 'working');
+          parent.postMessage({ pluginMessage: { type: 'apply', url: irUrl, doc: doc, imageData: imageData } }, '*');
+        });
+      });
+    }
+
+    captureBtn.addEventListener('click', function() {
+      var siteUrl = siteUrlInput.value.trim();
+      if (!siteUrl) { setStatus('Enter a website URL first.', 'error'); return; }
+      if (!siteUrl.match(/^https?:\/\//i)) siteUrl = 'https://' + siteUrl;
+
+      captureBtn.disabled = true;
+      setStatus('Connecting to local server…', 'working');
+
+      fetch(SERVER + '/pipeline', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ url: siteUrl }),
+      }).then(function(r) {
+        if (!r.ok) {
+          return r.json().catch(function() { return { error: 'Unknown error' }; }).then(function(err) {
+            throw new Error(err.error || 'HTTP ' + r.status);
+          });
+        }
+        setStatus('Capturing page (this takes ~30–60 s)…', 'working');
+        polling = setInterval(function() {
+          fetch(SERVER + '/pipeline/status').then(function(sr) {
+            return sr.json();
+          }).then(function(d) {
+            if (d.status === 'running') {
+              setStatus(d.message || 'Capturing…', 'working');
+            } else if (d.status === 'done') {
+              clearInterval(polling); polling = null;
+              applyFromUrl(SERVER + '/ir.json').catch(function(e) {
+                setStatus('Error: ' + e.message, 'error');
+                captureBtn.disabled = false;
+              });
+            } else if (d.status === 'error') {
+              clearInterval(polling); polling = null;
+              setStatus('Error: ' + d.message, 'error');
+              captureBtn.disabled = false;
+            }
+          }).catch(function() {});
+        }, 2000);
+      }).catch(function(e) {
+        var msg = e.message && e.message.toLowerCase().indexOf('fetch') !== -1
+          ? 'Cannot reach server. Run:  node scripts/serve-ir.mjs'
+          : e.message;
+        setStatus('Error: ' + msg, 'error');
+        captureBtn.disabled = false;
+      });
+    });
+
+    loadBtn.addEventListener('click', function() {
+      var url = irUrlInput.value.trim();
+      if (!url) { setStatus('Enter a URL first.', 'error'); return; }
+      loadBtn.disabled = true;
+      applyFromUrl(url).catch(function(err) {
+        var msg = err.message && err.message.toLowerCase().indexOf('fetch') !== -1
+          ? 'Cannot reach server. Run:  node scripts/serve-ir.mjs'
+          : err.message;
+        setStatus('Error: ' + msg, 'error');
+        loadBtn.disabled = false;
+      });
+    });
+
+    window.onmessage = function(e) {
+      var msg = e.data && e.data.pluginMessage;
+      if (!msg) return;
+      if (msg.type === 'done') {
+        setStatus('✓ Created ' + msg.nodeCount + ' nodes in "' + msg.frameName + '"', 'ok');
+        captureBtn.disabled = false;
+        loadBtn.disabled    = false;
+      } else if (msg.type === 'error') {
+        setStatus('Error: ' + msg.message, 'error');
+        captureBtn.disabled = false;
+        loadBtn.disabled    = false;
+      }
+    };
+  </script>
+</body>
+</html>

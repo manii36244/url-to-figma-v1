@@ -1,0 +1,11 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "paths": {
+      "@url-to-figma/shared": ["../shared/src/index.ts"],
+      "@url-to-figma/capture": ["../capture/src/index.ts"]
+    }
+  },
+  "include": ["src"]
+}

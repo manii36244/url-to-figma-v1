@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx tsc *)",
+      "Bash(node -e ' *)",
+      "Bash(node -e \"require\\('net'\\).createServer\\(\\).listen\\(3001, '127.0.0.1', function\\(\\){ this.close\\(\\); console.log\\('port free'\\); }\\).on\\('error', function\\(\\){ console.log\\('port in use'\\); }\\);\")",
+      "PowerShell(Start-Process -FilePath \"node\" -ArgumentList \"scripts/serve-ir.mjs\" -WorkingDirectory \"c:\\\\Users\\\\USER\\\\OneDrive\\\\Desktop\\\\url-to-figma\\\\url-to-figma\" -WindowStyle Normal)",
+      "PowerShell(Start-Sleep -Seconds 3; try { Invoke-RestMethod \"http://localhost:3001/pipeline/status\" | ConvertTo-Json } catch { \"Still not up: $_\" })",
+      "Bash(node scripts/pipeline.mjs \"https://rehman-work.webflow.io\")",
+      "PowerShell(Start-Process -FilePath \"node\" -ArgumentList \"scripts/serve-ir.mjs\" -WorkingDirectory \"c:\\\\Users\\\\USER\\\\OneDrive\\\\Desktop\\\\url-to-figma\\\\url-to-figma\" -WindowStyle Normal; Start-Sleep -Seconds 3; try { Invoke-RestMethod \"http://localhost:3001/pipeline/status\" | ConvertTo-Json } catch { \"Not up yet: $_\" })",
+      "PowerShell(Get-Process node -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue; Start-Sleep -Seconds 1; Start-Process -FilePath \"node\" -ArgumentList \"scripts/serve-ir.mjs\" -WorkingDirectory \"c:\\\\Users\\\\USER\\\\OneDrive\\\\Desktop\\\\url-to-figma\\\\url-to-figma\" -WindowStyle Normal; Start-Sleep -Seconds 3; try { Invoke-RestMethod \"http://localhost:3001/pipeline/status\" | ConvertTo-Json } catch { \"Not up: $_\" })",
+      "PowerShell($html = \\(Invoke-WebRequest \"http://localhost:3001/\"\\).Content; if \\($html -match \"statusEl\"\\) { Write-Output \"FIX IS LIVE: statusEl found in served HTML\" } else { Write-Output \"BUG STILL THERE: old variable name in served HTML\" }; if \\($html -match \"addEventListener\"\\) { Write-Output \"Click handler IS present\" } else { Write-Output \"Click handler MISSING\" })",
+      "Bash(curl -s -X POST http://localhost:3001/pipeline -H \"Content-Type: application/json\" -d '{\"url\":\"https://rehman-work.webflow.io\"}')",
+      "Bash(curl -s http://localhost:3001/pipeline/status)",
+      "Bash(node -e \"const d=require\\('./packages/transformer/ir.json'\\); console.log\\('IR nodes:', d.nodes[0].children.length, '| pageWidth:', d.pageWidth, '| pageHeight:', d.pageHeight\\)\")",
+      "Bash(curl -s http://localhost:3001/ir.json)",
+      "Bash(node -e \"const d=JSON.parse\\(require\\('fs'\\).readFileSync\\('/dev/stdin','utf8'\\)\\); console.log\\('Served IR ok — version:', d.version, 'nodes:', d.nodes[0].children.length\\)\")",
+      "Bash(curl -sI http://localhost:3001/assets/screenshot.jpg)"
+    ]
+  }
+}

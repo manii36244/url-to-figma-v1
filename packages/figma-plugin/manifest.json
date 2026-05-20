@@ -1,0 +1,6 @@
+{
+  "name": "URL to Figma",
+  "api": "1.0.0",
+  "main": "dist/code.js",
+  "editorType": ["figma"]
+}
